@@ -1,0 +1,458 @@
+[01:10:04.279][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:vanilla
+[01:10:04.290][INFO]: CoT: Successfully identified and loaded ContentTweaker plugin contenttweaker:forge
+[01:10:04.633][INFO]: Successfully identified and loaded plugin contenttweaker:core
+[01:10:04.644][INFO]: Successfully identified and loaded plugin botania:default
+[01:10:04.651][INFO]: Successfully identified and loaded plugin jeitweaker:default
+[01:10:04.722][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[01:10:04.727][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[01:10:04.732][INFO]: Successfully identified and loaded plugin mekanism:crt_plugin
+[01:10:07.547][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[01:10:07.552][INFO]: - 'botania' at version '1.18.2-435'
+[01:10:07.552][INFO]: - 'contenttweaker' at version '1.0.0+13'
+[01:10:07.552][INFO]: - 'crafttweaker' at version '9.1.209'
+[01:10:07.552][INFO]: - 'extendedcrafting' at version '4.1.2'
+[01:10:07.552][INFO]: - 'jeitweaker' at version '3.0.0.9'
+[01:10:07.552][INFO]: - 'lazierae2' at version '3.1.5'
+[01:10:07.552][INFO]: - 'mekanism' at version '10.2.5'
+[01:10:07.552][INFO]: - 'mysticalagriculture' at version '5.1.5'
+[01:10:07.552][INFO]: - 'thermal' at version '9.2.0.46'
+[01:10:07.552][INFO]: - 'thermal_foundation' at version '9.2.0.46'
+[01:10:08.385][INFO]: Started loading scripts for loader 'contenttweaker'
+[01:10:08.883][INFO]: Compiling and executing scripts
+[01:10:09.015][INFO]: Successfully initialized modules [crafttweaker, contenttweaker, expansions]
+[01:10:09.125][INFO]: Execution for loader 'contenttweaker' completed successfully
+[01:10:13.668][INFO]: Started loading scripts for loader 'mekanismcontent'
+[01:10:13.693][INFO]: Compiling and executing scripts
+[01:10:14.366][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[01:10:14.377][INFO]: Execution for loader 'mekanismcontent' completed successfully
+[01:10:14.378][INFO]: Registering 0 custom gases.
+[01:10:14.394][INFO]: Registering 0 custom infuse types.
+[01:10:14.421][INFO]: Registering 0 custom pigments.
+[01:10:14.430][INFO]: Registering 0 custom robit skins.
+[01:10:14.435][INFO]: Registering 0 custom slurries.
+[01:10:17.499][INFO]: Started loading scripts for loader 'initialize'
+[01:10:17.520][INFO]: Compiling and executing scripts
+[01:10:17.521][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[01:10:17.531][INFO]: Execution for loader 'initialize' completed successfully
+[01:11:46.917][WARN]: Two subcommands with the same ID soundevents found for dump: this it not a critical error
+[01:11:46.918][WARN]: Two subcommands with the same ID materials found for dump: this it not a critical error
+[01:12:01.242][INFO]: Started loading scripts for loader 'tags'
+[01:12:01.271][INFO]: Compiling and executing scripts
+[01:12:01.274][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[01:12:01.285][INFO]: Execution for loader 'tags' completed successfully
+[01:12:10.907][INFO]: Started loading scripts for loader 'crafttweaker'
+[01:12:10.924][INFO]: Compiling and executing scripts
+[01:12:11.110][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[01:12:11.126][INFO]: Loading file 'AE2\inscriber.zs' with priority 0
+[01:12:11.133][INFO]: Loading file 'insolator.zs' with priority 0
+[01:12:11.135][INFO]: Loading file 'mekanism\influsing\mekanism_chemical_infusing.zs' with priority 0
+[01:12:11.139][INFO]: Loading file 'mekanism\influsing\mekanism_infusion_conversion.zs' with priority 0
+[01:12:11.147][INFO]: Loading file 'mekanism\influsing\mekanism_metallurgic_infusing.zs' with priority 0
+[01:12:11.147][INFO]: Loading file 'mekanism\logistical_sorter.zs' with priority 0
+[01:12:11.148][INFO]: Loading file 'mekanism\miner\digital_miner.zs' with priority 0
+[01:12:11.149][INFO]: Loading file 'mekanism\miner\void_miner.zs' with priority 0
+[01:12:11.151][INFO]: Loading file 'mekanism\smelter.zs' with priority 0
+[01:12:11.152][INFO]: Loading file 'mekanism\tp\quantum_entangloporter.zs' with priority 0
+[01:12:11.153][INFO]: Loading file 'mekanism\tp\teleporter.zs' with priority 0
+[01:12:11.153][INFO]: Loading file 'mekanism\tp\teleporter_core.zs' with priority 0
+[01:12:11.153][INFO]: Loading file 'mekanism\tp\teleporter_frame.zs' with priority 0
+[01:12:11.154][INFO]: Loading file 'norch apple.zs' with priority 0
+[01:12:11.155][INFO]: Loading file 'sink.zs' with priority 0
+[01:12:11.155][INFO]: Loading file 'waystones\warp_stone.zs' with priority 0
+[01:12:11.265][INFO]: Removing 'crafting' recipes with output: 'com.blamejared.crafttweaker.api.item.MCItemStack@5d1de49f'
+[01:12:11.310][INFO]: Adding 'minecraft:crafting' recipe, of type: "shaped", with name: 'crafttweaker:inscriber' that outputs: '<item:ae2:inscriber>'
+[01:12:11.330][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:custom_insolator_recipe' that outputs: '<item:minecraft:air>'
+[01:12:11.332][WARN]: insolator.zs:4:0: Invalid recipe name 'pamhc2trees:apple_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.apple_sapling
+[01:12:11.333][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.apple_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.334][WARN]: insolator.zs:8:0: Invalid recipe name 'pamhc2trees:cherryitem_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.cherryitem_sapling
+[01:12:11.334][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.cherryitem_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.335][WARN]: insolator.zs:12:0: Invalid recipe name 'pamhc2trees:chestnut_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.chestnut_sapling
+[01:12:11.335][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.chestnut_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.336][WARN]: insolator.zs:16:0: Invalid recipe name 'pamhc2trees:gooseberry_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.gooseberry_sapling
+[01:12:11.336][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.gooseberry_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.337][WARN]: insolator.zs:20:0: Invalid recipe name 'pamhc2trees:lemon_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.lemon_sapling
+[01:12:11.337][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.lemon_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.337][WARN]: insolator.zs:24:0: Invalid recipe name 'pamhc2trees:nutmeg_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.nutmeg_sapling
+[01:12:11.337][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.nutmeg_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.338][WARN]: insolator.zs:28:0: Invalid recipe name 'pamhc2trees:orange_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.orange_sapling
+[01:12:11.338][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.orange_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.339][WARN]: insolator.zs:32:0: Invalid recipe name 'pamhc2trees:peach_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.peach_sapling
+[01:12:11.339][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.peach_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.340][WARN]: insolator.zs:36:0: Invalid recipe name 'pamhc2trees:pear_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.pear_sapling
+[01:12:11.340][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.pear_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.340][WARN]: insolator.zs:40:0: Invalid recipe name 'pamhc2trees:candlenut_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.candlenut_sapling
+[01:12:11.341][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.candlenut_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.341][WARN]: insolator.zs:44:0: Invalid recipe name 'pamhc2trees:plum_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.plum_sapling
+[01:12:11.341][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.plum_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.342][WARN]: insolator.zs:48:0: Invalid recipe name 'pamhc2trees:walnut_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.walnut_sapling
+[01:12:11.342][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.walnut_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.343][WARN]: insolator.zs:52:0: Invalid recipe name 'pamhc2trees:hazelnut_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.hazelnut_sapling
+[01:12:11.343][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.hazelnut_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.344][WARN]: insolator.zs:56:0: Invalid recipe name 'pamhc2trees:pawpaw_sapling', mistakes:
+- it cannot contain colons (':')
+New recipe name: pamhc2trees.pawpaw_sapling
+[01:12:11.344][INFO]: Adding 'thermal:insolator' recipe, with name: 'crafttweaker:pamhc2trees.pawpaw_sapling' that outputs: '<item:minecraft:air>'
+[01:12:11.360][INFO]: Adding 'mekanism:chemical_infusing' recipe, with name: 'crafttweaker:gaseous_brine' that outputs: '<gas:mekanism:brine> * 2'
+[01:12:11.364][INFO]: Removing 'mekanism:chemical_infusing' recipe(s) with name(s): '[mekanism:chemical_infusing/sulfur_trioxide]'
+[01:12:11.374][INFO]: Adding 'mekanism:infusion_conversion' recipe, with name: 'crafttweaker:infusion_conversion/gold/from_ingot' that outputs: '<infuse_type:mekanism:gold> * 10'
+[01:12:11.374][INFO]: Removing 'mekanism:infusion_conversion' recipe(s) with name(s): '[mekanism:infusion_conversion/bio/from_bio_fuel]'
+[01:12:11.379][INFO]: Adding 'mekanism:metallurgic_infusing' recipe, with name: 'crafttweaker:infuse_planks' that outputs: '<item:minecraft:crimson_planks>'
+[01:12:11.379][INFO]: Removing 'mekanism:metallurgic_infusing' recipe(s) with name(s): '[mekanism:metallurgic_infusing/sand_to_dirt]'
+[01:12:11.379][ERROR]: Error while running scripts:
+java.lang.UnsupportedOperationException: Mekanism's recipe managers don't support removal by output, please remove by recipe name.
+	at TRANSFORMER/mekanism@10.2.5/mekanism.common.integration.crafttweaker.recipe.manager.MekanismRecipeManager.remove(MekanismRecipeManager.java:60)
+	at scripts.mekanism.influsing.mekanism_metallurgic_infusing.run(mekanism\influsing\mekanism_metallurgic_infusing.zs:22)
+	at Scripts.run(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at TRANSFORMER/crafttweaker@9.1.209/org.openzen.zenscript.javabytecode.JavaBytecodeRunUnit.run(JavaBytecodeRunUnit.java:127)
+	at TRANSFORMER/crafttweaker@9.1.209/org.openzen.zencode.java.ScriptingEngine.run(ScriptingEngine.java:182)
+	at TRANSFORMER/crafttweaker@9.1.209/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ExecutingScriptRunner.executeRunAction(ExecutingScriptRunner.java:22)
+	at TRANSFORMER/crafttweaker@9.1.209/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.runScripts(ScriptRunner.java:93)
+	at TRANSFORMER/crafttweaker@9.1.209/com.blamejared.crafttweaker.impl.script.scriptrun.runner.ScriptRunner.run(ScriptRunner.java:69)
+	at TRANSFORMER/crafttweaker@9.1.209/com.blamejared.crafttweaker.impl.script.scriptrun.DecoratedRunKind$DecoratedScriptRunner.run(DecoratedRunKind.java:27)
+	at TRANSFORMER/crafttweaker@9.1.209/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.executeRun(ScriptRun.java:88)
+	at TRANSFORMER/crafttweaker@9.1.209/com.blamejared.crafttweaker.impl.script.scriptrun.ScriptRun.execute(ScriptRun.java:54)
+	at TRANSFORMER/crafttweaker@9.1.209/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.apply(ScriptReloadListener.java:78)
+	at TRANSFORMER/crafttweaker@9.1.209/com.blamejared.crafttweaker.impl.script.ScriptReloadListener.m_5787_(ScriptReloadListener.java:37)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:795)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:784)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:795)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:784)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:795)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:784)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:795)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:784)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:795)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:784)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:795)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:784)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:795)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:784)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:795)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:784)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:726)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_10834_(SimpleReloadInstance.java:68)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:572)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+[01:12:11.384][INFO]: Execution for loader 'crafttweaker' completed successfully
+[01:12:11.399][INFO]: This reload was made possible by Quaternary and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
