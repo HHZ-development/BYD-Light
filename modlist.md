@@ -128,6 +128,15 @@ Create: Mechanical Confection
   Traveler's Titles
   End Remastered
   The Twilight Forest
+  Confluence: Otherworld
+  Deeper And Darker
+  The Aether
+  Aether Villages
+  Structory
+  Sea Creeps
+  Kobolds!
+  Lootr
+  Earth Mobs
   YUNG's API
   YUNG的沙漠神殿优化
   YUNG的末地岛屿优化
