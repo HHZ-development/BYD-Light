@@ -131,6 +131,25 @@ Create: Mechanical Confection
   地址:https://www.mcmod.cn/class/14104.html
   3.GTCEu/GTM能源拓展Gregfluxology(FE电转EU电)(考虑)
   地址:https://www.mcmod.cn/class/17498.html
+# MEK及其拓展附属
+  1.Mekanism
+  地址:https://www.mcmod.cn/class/187.html
+  2.Mekanism Generators(mek发电机)
+  地址:https://www.mcmod.cn/class/1323.html
+  3.Mekanism Tools(mek工具)
+  地址:https://www.mcmod.cn/class/1615.html
+  4.Mekanism Additions(mek附加)
+  地址:https://www.mcmod.cn/class/2437.html
+  5.More Mekanism Processing(为mek添加更多矿处)
+  地址:https://www.mcmod.cn/class/6484.html
+  6.Mekanism Unleashed(mek速度超级加强)(记得调config)
+  地址:https://www.mcmod.cn/class/16084.html
+  7.Mekanism: More Machine(更多机器)(让mek变成IC2了？)
+  地址:https://www.mcmod.cn/class/20094.html
+  8.Modular Machinery Reborn Mekanism(mek多方块自定义)
+  地址:https://www.mcmod.cn/class/17147.html
+  9.Modular Machinery Reborn(同上)
+  地址:https://www.mcmod.cn/class/17026.html
   ### 冒险类
 
   Advancement Plaques
