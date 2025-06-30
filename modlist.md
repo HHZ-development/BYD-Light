@@ -27,6 +27,13 @@ FTB Backups 2
 Sophisticated Backpacks
 Sophisticated Storage
 Jade 🔍
+Storage Drawers
+Traveler's Backpack
+Everlasting Abilities
+Curious Elytra / Elytra Trinket / Elytra Slot
+Enchantment Descriptions
+Portable Crafting Table
+Trade Cycling
 
 ### 大类
 1.create(贯穿主线)
