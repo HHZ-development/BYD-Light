@@ -103,3 +103,5 @@ Create: Mechanical Confection
   地址:https://www.mcmod.cn/class/7892.html
   10.Create Ultimine(生活质量:连锁挖掘联动)
   地址:https://www.mcmod.cn/class/19138.html
+
+  ### 冒险类
