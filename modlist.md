@@ -4,15 +4,31 @@
 ### 前置
 Sophisticated Core
 FTB Library
+PlayerAnimator
+Curios API
 
 ### 科技类
+create
+mek()
 
-### 优化类
-Save My Shaky Network
+### 优化类（带△的是服务器支持）
+△ Save My Shaky Network 
 Modern UI
-ModernFix
+△ ModernFix 
+△ AttributeFix
+Controlling
+△ FastFurnace 
+△ FastSuite 
+△ FastWorkbench 
+△ Fastload 
+△ LazyDFU 
+△ MaxHealthFix 
+Embeddium(Rubidium)Extra
 Embeddium
 Sodium/Embeddium Dynamic Lights
+I18nUpdateMod
+△ Get It Together,Drops！ 
+FPS Reducer
 
 ### 生活质量
 Touhou Little Maid
@@ -27,13 +43,36 @@ FTB Backups 2
 Sophisticated Backpacks
 Sophisticated Storage
 Jade 🔍
+Waystones
+Better Villages
+Champions-Unofficial
+Entangled
+Corail's Tombstone
+AttributeFix
+Polymorph
+Simple Magnets
+Spice of Life: Carrot Edition
+ChatBox
+HugMe!
+Create Confectionery
+Ponder
+Terra Curio
 Storage Drawers
-Traveler's Backpack
-Everlasting Abilities
-Curious Elytra / Elytra Trinket / Elytra Slot
-Enchantment Descriptions
-Portable Crafting Table
-Trade Cycling
+Farmer's Delight
+End's Delight
+Expanded Delight
+Pineapple Delight
+Ocean's Delight
+L_Ender 's Cataclysm Delight
+Storage Delight
+Twilight's Flavors & Delight
+Glowing Ores (Glore)
+Beautify!
+Torchmaster
+ReHooked
+Aquaculture 2
+Lootr
+Create: Mechanical Confection
 
 ### 大类
 1.create(贯穿主线)
@@ -86,3 +125,5 @@ Trade Cycling
   地址:https://www.mcmod.cn/class/17591.html
   11.Ars Énergistique(AE2新生魔艺联动)       (不一定加)
   地址:https://www.mcmod.cn/class/12603.html
+
+  ### 冒险类
