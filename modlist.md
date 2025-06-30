@@ -11,8 +11,20 @@ FTB Library
 Save My Shaky Network
 Modern UI
 ModernFix
+AttributeFix
+Controlling
+FastFurnace
+FastSuite
+FastWorkbench
+Fastload
+LazyDFU
+MaxHealthFix
+Embeddium(Rubidium)Extra
 Embeddium
 Sodium/Embeddium Dynamic Lights
+I18nUpdateMod
+Get It Together,Drops！
+FPS Reducer
 
 ### 生活质量
 Touhou Little Maid
