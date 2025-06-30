@@ -11,23 +11,23 @@ Curios API
 create
 mek()
 
-### 优化类
-Save My Shaky Network
+### 优化类（带△的是服务器支持）
+Save My Shaky Network △
 Modern UI
-ModernFix
-AttributeFix
+ModernFix △
+AttributeFix △
 Controlling
-FastFurnace
-FastSuite
-FastWorkbench
-Fastload
-LazyDFU
-MaxHealthFix
+FastFurnace △
+FastSuite △
+FastWorkbench △
+Fastload △
+LazyDFU △
+MaxHealthFix △
 Embeddium(Rubidium)Extra
 Embeddium
 Sodium/Embeddium Dynamic Lights
 I18nUpdateMod
-Get It Together,Drops！
+Get It Together,Drops！ △
 FPS Reducer
 
 ### 生活质量
