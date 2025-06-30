@@ -8,6 +8,11 @@ FTB Library
 ### 科技类
 
 ### 优化类
+Save My Shaky Network
+Modern UI
+ModernFix
+Embeddium
+Sodium/Embeddium Dynamic Lights
 
 ### 生活质量
 Touhou Little Maid
