@@ -6,6 +6,8 @@ Sophisticated Core
 FTB Library
 
 ### 科技类
+
+### 优化类
 # 大类
 1.create(贯穿主线)
 2.AE2(前期加入方便后期自动化)
