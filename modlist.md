@@ -6,7 +6,36 @@ Sophisticated Core
 FTB Library
 
 ### 科技类
-# 大类
+
+### 优化类
+Save My Shaky Network
+Modern UI
+ModernFix
+Embeddium
+Sodium/Embeddium Dynamic Lights
+
+### 生活质量
+Touhou Little Maid
+Explorer's Compass Edited
+Immersive Aircraft
+FTB Teams
+FTB Ultimine
+FTB Quests
+FTB Chunks
+FTB Essentials
+FTB Backups 2
+Sophisticated Backpacks
+Sophisticated Storage
+Jade 🔍
+Storage Drawers
+Traveler's Backpack
+Everlasting Abilities
+Curious Elytra / Elytra Trinket / Elytra Slot
+Enchantment Descriptions
+Portable Crafting Table
+Trade Cycling
+
+### 大类
 1.create(贯穿主线)
 2.AE2(前期加入方便后期自动化)
 3.格雷(主线，自定义多)
