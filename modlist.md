@@ -4,8 +4,12 @@
 ### 前置
 Sophisticated Core
 FTB Library
+PlayerAnimator
+Curios API
 
 ### 科技类
+create
+mek()
 
 ### 优化类
 Save My Shaky Network
@@ -27,13 +31,36 @@ FTB Backups 2
 Sophisticated Backpacks
 Sophisticated Storage
 Jade 🔍
+Waystones
+Better Villages
+Champions-Unofficial
+Entangled
+Corail's Tombstone
+AttributeFix
+Polymorph
+Simple Magnets
+Spice of Life: Carrot Edition
+ChatBox
+HugMe!
+Create Confectionery
+Ponder
+Terra Curio
 Storage Drawers
-Traveler's Backpack
-Everlasting Abilities
-Curious Elytra / Elytra Trinket / Elytra Slot
-Enchantment Descriptions
-Portable Crafting Table
-Trade Cycling
+Farmer's Delight
+End's Delight
+Expanded Delight
+Pineapple Delight
+Ocean's Delight
+L_Ender 's Cataclysm Delight
+Storage Delight
+Twilight's Flavors & Delight
+Glowing Ores (Glore)
+Beautify!
+Torchmaster
+ReHooked
+Aquaculture 2
+Lootr
+Create: Mechanical Confection
 
 ### 大类
 1.create(贯穿主线)
