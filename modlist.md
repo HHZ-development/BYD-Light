@@ -7,24 +7,24 @@ FTB Library
 PlayerAnimator
 Curios API
 
-### 优化类（带△的是服务器支持）
-△ Save My Shaky Network 
-Modern UI
-△ ModernFix 
-△ AttributeFix
-Controlling
-△ FastFurnace 
-△ FastSuite 
-△ FastWorkbench 
-△ Fastload 
-△ LazyDFU 
-△ MaxHealthFix 
-Embeddium(Rubidium)Extra
-Embeddium
-Sodium/Embeddium Dynamic Lights
-I18nUpdateMod
-△ Get It Together,Drops！ 
-FPS Reducer
+### 优化类（带△的仅支持客户端的）
+Save My Shaky Network 
+△ Modern UI
+ModernFix 
+AttributeFix
+△ Controlling
+FastFurnace 
+FastSuite 
+FastWorkbench 
+Fastload 
+LazyDFU 
+MaxHealthFix 
+△ Embeddium(Rubidium)Extra
+△ Embeddium
+△ Sodium/Embeddium Dynamic Lights
+△I18nUpdateMod
+Get It Together,Drops！ 
+△ FPS Reducer
 
 ### 生活质量
 Touhou Little Maid
@@ -156,6 +156,15 @@ Create: Mechanical Confection
   Traveler's Titles
   End Remastered
   The Twilight Forest
+  Confluence: Otherworld
+  Deeper And Darker
+  The Aether
+  Aether Villages
+  Structory
+  Sea Creeps
+  Kobolds!
+  Lootr
+  Earth Mobs
   YUNG's API
   YUNG的沙漠神殿优化
   YUNG的末地岛屿优化
