@@ -99,6 +99,7 @@ Create: Mechanical Confection
   地址:https://www.mcmod.cn/class/7892.html
   10.Create Ultimine(生活质量:连锁挖掘联动)
   地址:https://www.mcmod.cn/class/19138.html
+
 # AE2机器附属联动
   1.AE2
   2.Applied Mekanistics(AE2与MEK联动)
@@ -122,6 +123,14 @@ Create: Mechanical Confection
   11.Ars Énergistique(AE2新生魔艺联动)       (不一定加)
   地址:https://www.mcmod.cn/class/12603.html
 
+# GT及其拓展附属
+  1.GregTechCEu Modern
+  地址:https://www.mcmod.cn/class/12850.html
+  参考资料:https://www.mcmod.cn/post/3820.html 使用 KubeJS 自定义 GTM(熟读！)
+  2.独居石Monazite(显示mod)
+  地址:https://www.mcmod.cn/class/14104.html
+  3.GTCEu/GTM能源拓展Gregfluxology(FE电转EU电)(考虑)
+  地址:https://www.mcmod.cn/class/17498.html
   ### 冒险类
 
   Advancement Plaques
