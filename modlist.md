@@ -132,3 +132,19 @@ Create: Mechanical Confection
   3.GTCEu/GTM能源拓展Gregfluxology(FE电转EU电)(考虑)
   地址:https://www.mcmod.cn/class/17498.html
   ### 冒险类
+
+  Advancement Plaques
+  Traveler's Titles
+  End Remastered
+  The Twilight Forest
+  YUNG's API
+  YUNG的沙漠神殿优化
+  YUNG的末地岛屿优化
+  YUNG的丛林神殿优化
+  YUNG的矿井优化
+  YUNG的下届要塞优化
+  YUNG的海底神殿优化
+  YUNG的要塞优化
+  YUNG的沼泽小屋优化
+  YUNG的桥
+  YUNG's Extras
