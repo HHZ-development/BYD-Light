@@ -64,3 +64,25 @@ Trade Cycling
   地址:https://www.mcmod.cn/class/7892.html
   10.Create Ultimine(生活质量:连锁挖掘联动)
   地址:https://www.mcmod.cn/class/19138.html
+# AE2机器附属联动
+  1.AE2
+  2.Applied Mekanistics(AE2与MEK联动)
+  地址:https://www.mcmod.cn/class/6055.html
+  3.ME Requester(网络缓存器)
+  地址:https://www.mcmod.cn/class/10066.html
+  4.Polymorphic Energistics(AE2多态合成适配)
+  地址:https://www.mcmod.cn/class/14995.html
+  5.AE2: Crafting Tree(合成树)
+  地址:https://www.mcmod.cn/class/16167.html
+  6.AdvancedAE(高级AE)
+  地址:https://www.mcmod.cn/class/16225.html
+  7.ExtendedAE(AE2拓展)
+  地址:https://www.mcmod.cn/class/11534.html
+  8.MEGA Cells(MEGA)
+  地址:https://www.mcmod.cn/class/6792.html
+  9.AE2 Things(深度存储)
+  地址:https://www.mcmod.cn/class/6421.html
+  10.AE2 MEGA Things(MEGA深度存储)
+  地址:https://www.mcmod.cn/class/17591.html
+  11.Ars Énergistique(AE2新生魔艺联动)       (不一定加)
+  地址:https://www.mcmod.cn/class/12603.html
