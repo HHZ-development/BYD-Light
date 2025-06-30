@@ -44,7 +44,6 @@ Better Villages
 Champions-Unofficial
 Entangled
 Corail's Tombstone
-AttributeFix
 Polymorph
 Simple Magnets
 Spice of Life: Carrot Edition
@@ -69,6 +68,44 @@ ReHooked
 Aquaculture 2
 Lootr
 Create: Mechanical Confection
+Time in a bottle [FORGE\NEOFORGE\FABRIC]
+Time in a bottle Curio Support
+Goblin Traders
+toNeko
+△Extreme Sound Muffler
+△Item Borders
+Dank Storage
+FindMe
+Akashic Tome
+Happy Ghast Backported
+Everything is Copper
+△Chat Heads
+ExpOrbRecall
+Bonsai Trees
+△Health Overlay / Colorful Hearts
+YUNG's Bridges
+Polymorphic Energistics
+Reap
+Sea Creeps
+Supplementaries
+Create: Enchantable Machinery
+△Just Enough Characters
+Kiss Mod Transplant
+Just Enough Items
+EMI
+EMI Addon: Extra Mod Integrations
+EMI Loot
+EMI Ores
+△EMIffect
+△EMI Enchanting
+△EMI professions
+△TooManyRecipeViewers
+JER Integration
+△Just Enough Resources
+△EMI++
+AE2 JEI Integration
+Creeper Firework
+△Ok Zoomer
 
 ### 大类
 1.create(贯穿主线)
