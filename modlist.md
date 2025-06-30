@@ -7,10 +7,6 @@ FTB Library
 PlayerAnimator
 Curios API
 
-### 科技类
-create
-mek()
-
 ### 优化类（带△的是服务器支持）
 △ Save My Shaky Network 
 Modern UI
