@@ -70,3 +70,24 @@ Create: Mechanical Confection
 5.EIO(万金油，前中期加入后稍微限制一下)
 6.热力(稍微加强，合金炉或有机灌注机加强)
 7.龙研(后期格雷,creat联动)
+# create及其附属联动
+  1.Create
+  2.Create Ore Excavation(矿井，记得自定义，原版太鸡肋了)
+  地址:https://www.mcmod.cn/class/7300.html
+  参考文献:https://www.mcmod.cn/post/3606.html [1.20+] 使用KubeJS添加可开采的矿脉
+  3.Create: Liquid Fuel(液体燃料)
+  地址:https://www.mcmod.cn/class/12606.html 如何新建燃料
+  4.Create: Cyber Goggles(优化及部分配置)
+  地址:https://www.mcmod.cn/class/18629.html
+  5.Create: Molten Vents(create矿物再生)
+  地址:https://www.mcmod.cn/class/10038.html
+  6.Create: Let The Adventure Begin(生活质量:遗迹类)
+  地址:https://www.mcmod.cn/class/16477.html
+  7.Create: Enchantable Machinery(工具附魔)
+  地址:https://www.mcmod.cn/class/16402.html
+  8.Create Better FPS(优化)## 闪电注意！！！
+  地址:https://www.mcmod.cn/class/18864.html
+  9.Create: Enchantment Industry(伟大的附魔工业)
+  地址:https://www.mcmod.cn/class/7892.html
+  10.Create Ultimine(生活质量:连锁挖掘联动)
+  地址:https://www.mcmod.cn/class/19138.html
