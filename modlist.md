@@ -44,6 +44,19 @@
 - LDLib
 - Configuration
 - ExperienceLib
+- Woodwalkers
+- CraftedCore
+- Lionfish-API
+- oωo (owo-lib)
+- Bagus Lib
+- Jupiter
+- Uranus
+- Puzzles Lib
+- Structurize
+- Multi-Piston
+- BlockUI
+- Domum Ornamentum
+- TownTalk
 
 ## 优化类（带△的仅支持客户端的）
 
@@ -79,8 +92,6 @@
    地址: <https://www.mcmod.cn/class/1736.html>
 
 ## 生活质量
-- Domum Ornamentum
-   地址:<https://www.mcmod.cn/class/5506.html>
 - Minecolonies(模拟殖民地)
    地址:<https://www.mcmod.cn/class/682.html>
 - Touhou Little Maid(车万女仆)
@@ -299,8 +310,6 @@
 1. GregTechCEu Modern
    地址: <https://www.mcmod.cn/class/12850.html>
    参考资料: <https://www.mcmod.cn/post/3820.html> 使用 KubeJS 自定义GTM(熟读)
-2. 独居石Monazite(显示mod)
-   地址: <https://www.mcmod.cn/class/14104.html>
 3. GTCEu/GTM能源拓展Gregfluxology(FE电转EU)(考虑)
    地址: <https://www.mcmod.cn/class/17498.html>
 
@@ -371,8 +380,6 @@
    地址: <https://www.mcmod.cn/class/9732.html>
 - Earth Mobs(地球生物)
    地址: <https://www.mcmod.cn/class/7972.html>
-- YUNG's API(YUNG的API)
-   地址: <https://www.mcmod.cn/class/3372.html>
 - YUNG的沙漠神殿优化(YUNG's Better Desert Temples)
    地址: <https://www.mcmod.cn/class/6613.html>
 - YUNG的末地岛屿优化(YUNG's Better End Island)
