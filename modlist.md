@@ -130,6 +130,7 @@ OpenBlocks Elevator / ElevatorMod
 Biomes O' Plenty
 Comforts
 ConnectedTexturesMod
+Amendments
 
 ## 大类
 
