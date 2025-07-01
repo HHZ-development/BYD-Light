@@ -10,6 +10,12 @@
    地址: <https://www.mcmod.cn/class/7487.html>
 - Curios API(奇异饰品)
    地址: <https://www.mcmod.cn/class/2029.html>
+- GeckoLib
+   地址:<https://www.mcmod.cn/class/3232.html>
+- PlayerAnimator
+   地址:<https://www.mcmod.cn/class/7487.html>
+- AzureLib
+   地址:<https://www.mcmod.cn/class/9321.html>
 
 ## 优化类（带△的仅支持客户端的）
 
@@ -49,7 +55,8 @@
    地址: <https://www.mcmod.cn/class/1736.html>
 
 ## 生活质量
-
+- Minecolonies(模拟殖民地)
+   地址:<https://www.mcmod.cn/class/682.html>
 - Touhou Little Maid(车万女仆)
    地址: <https://www.mcmod.cn/class/1796.html>
 - Explorer's Compass Edited(探险者指南针)
@@ -297,15 +304,18 @@
  
 
 ## 冒险类
-
+- Iron's Spells 'n Spellbooks(Iron的法术与魔法书)
+   地址：<https://www.mcmod.cn/class/10175.html>
+- Crystal Chronicles
+   地址：<https://www.mcmod.cn/class/17510.html>
+- L_Ender 's Cataclysm
+   地址:<https://www.mcmod.cn/class/5214.html>
+- Cataclysm Weaponery
+   地址:<https://www.mcmod.cn/class/10285.html>
+- Cataclysm: Spellbooks
+   地址:<https://www.mcmod.cn/class/16469.html>
 - Advancement Plaques(成就徽章)
    地址: <https://www.mcmod.cn/class/5265.html>
-- Apotheosis(神化)
-   地址: <https://www.mcmod.cn/class/1708.html>
-- Ancient Reforging(远古重铸)
-   地址: <https://www.mcmod.cn/class/16348.html>
-- Apothic Combat(神话战斗)
-   地址: <https://www.mcmod.cn/class/18145.html>
 - Beautiful Enchanted Books(美丽的附魔书)
    地址: <https://www.mcmod.cn/class/17111.html>
 - Better Combat(更好的战斗)
@@ -325,7 +335,7 @@
 - Deeper And Darker(更深更暗)
    地址: <https://www.mcmod.cn/class/7369.html>
 - The Aether(天境)
-   地址: <https://www.mcmod.cn/class/47.html> // 注意：需要确认链接是否正确
+   地址: <https://www.mcmod.cn/class/47.html>
 - Aether Villages(天境村庄)
    地址: <https://www.mcmod.cn/class/15868.html>
 - Structory(结构库)
@@ -344,17 +354,9 @@
    地址: <https://www.mcmod.cn/class/12060.html>
 - YUNG的矿井优化(YUNG's Better Mineshafts)
    地址: <https://www.mcmod.cn/class/2788.html>
-- YUNG的下届要塞优化(YUNG's Better Nether Fortresses)
-   地址: <https://www.mcmod.cn/class/9384.html>
 - YUNG's Extras(YUNG的额外内容)
    地址: <https://www.mcmod.cn/class/4276.html>
 - [IAFCE]冰火传说社区版IceAndFire Community Edition(冰火传说社区版)
    地址: <https://www.mcmod.cn/class/15464.html>
-- Telos(泰洛斯)
-   地址: <https://www.mcmod.cn/class/13433.html>
-- Ender Dragon Fight Remastered(末影龙战斗重制)
-   地址: <https://www.mcmod.cn/class/10116.html>
-- DarkMobs - Increase Mob Difficulty(黑暗生物-增加生物难度)
-   地址: <https://www.mcmod.cn/class/12402.html>
-- Improved Mobs(改进生物)
-   地址: <https://www.mcmod.cn/class/3645.html>
+- Eternal Nether
+   地址：<https://www.mcmod.cn/class/19570.html>
