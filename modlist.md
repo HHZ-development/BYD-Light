@@ -304,6 +304,8 @@
  
 
 ## 冒险类
+- Remorphed
+   地址：<https://www.mcmod.cn/class/14687.html>
 - Iron's Spells 'n Spellbooks(Iron的法术与魔法书)
    地址：<https://www.mcmod.cn/class/10175.html>
 - Crystal Chronicles
