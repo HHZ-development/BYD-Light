@@ -48,7 +48,6 @@ Puzzles Lib
 Structurize
 Multi-Piston
 BlockUI
-Domum Ornamentum
 TownTalk
 TerraBlender
 GlitchCore
@@ -62,6 +61,10 @@ FastSuite(快速套件)
 FastWorkbench(快速工作台)
 MaxHealthFix(最大生命值修复)
 Get It Together,Drops！(物品聚合)
+In Control!
+KubeJs
+Not-Enough-Crashes
+Almost Unified
 
 ## 生活质量
 
@@ -130,6 +133,19 @@ Biomes O' Plenty
 Comforts
 ConnectedTexturesMod
 Amendments
+Cosmetic-Armo
+MmmMmmMmmMmm / Target Dummy
+Artifacts
+Visual-Workbench
+Fast-Leaf-Decay
+Corpse
+TrashSlot
+Crafting-Tweaks
+Trash-Cans
+Advanced-Netherite
+Farming for Blockheads
+Pipez
+Iron-Furnaces
 
 ## 大类
 
@@ -152,6 +168,7 @@ Create: Enchantment Industry (创造：附魔工业)
 Create Confectionery(机械动力：甜食)
 Create: Mechanical Confection(机械动力：蛋糕工坊)
 Create: Dragons Plus
+Create Crafts & Additions
 
 ## AE2机器附属联动
 
@@ -197,7 +214,6 @@ The Twilight Forest(暮色森林)
 Twilight Forest - Dungeons & Villages(暮色森林-地牢与村庄)
 Eternal Starlight (永恒星光)
 Deeper And Darker (更深更暗)
-Structory (结构)
 Kobolds! (狗头人！)
 Earth Mobs (地球生物)
 YUNG's Better Desert TemplesYUNG(的沙漠神殿优化)
@@ -229,3 +245,13 @@ Just Enough Characters (通用拼音搜索)
 Just Enough Resources(JER资源足够)
 Ok Zoomer(Ok缩放)
 Enchantment-Descriptions
+Mouse-Tweaks
+AppleSkin
+Skin Layers 3D
+Remove Reloading Screen
+Tips
+Falling Leaves
+Auth Me
+Iris & Oculus Flywheel Compat
+iris
+Client Sort
