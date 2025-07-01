@@ -46,7 +46,6 @@ Jupiter
 Uranus
 Puzzles Lib
 Structurize
-Multi-Piston
 BlockUI
 TownTalk
 TerraBlender
