@@ -200,9 +200,16 @@
 ## 冒险类
 
 - Advancement Plaques
+- Apotheosis
+- Ancient Reforging
+- Apothic Combat(2)
+- Beautiful Enchanted Books
+- Better Combat(1)(2)
 - Traveler's Titles
 - End Remastered
 - The Twilight Forest
+- Twilight Forest - Dungeons & Villages
+- Eternal Starlight
 - Confluence: Otherworld
 - Deeper And Darker
 - The Aether
@@ -223,3 +230,8 @@
 - YUNG的沼泽小屋优化
 - YUNG的桥
 - YUNG's Extras
+- [IAFCE]冰火传说社区版IceAndFire Community Edition
+- Telos(1)
+- Ender Dragon Fight Remastered(1)
+- DarkMobs - Increase Mob Difficulty(1)
+- Improved Mobs(1)
