@@ -78,10 +78,8 @@
    地址: <https://www.mcmod.cn/class/1486.html>
 - MaxHealthFix(最大生命值修复)
    地址: <https://www.mcmod.cn/class/2544.html>
-- △ Embeddium(Rubidium)Extra(钠/铷扩展)
-   地址: <https://www.mcmod.cn/class/7180.html>
-- △ Embeddium(钠的Forge版)
-   地址: <https://www.mcmod.cn/class/12028.html>
+- sodium
+- sodium extra
 - △ Sodium/Embeddium Dynamic Lights(钠/Embeddium动态光源)
    地址: <https://www.mcmod.cn/class/5302.html>
 - △I18nUpdateMod(本地化更新)
@@ -220,10 +218,6 @@
    地址: <https://www.mcmod.cn/class/3404.html>
 - △Just Enough Characters(JEC字符扩展)
    地址: <https://www.mcmod.cn/class/2764.html>
-- Kiss Mod Transplant(Kiss模组移植)
-   地址: <https://www.mcmod.cn/class/20231.html>
-- Just Enough Items(JEI物品管理器)
-   地址: <https://www.mcmod.cn/class/459.html>
 - EMI(EMI物品索引)
    地址: <https://www.mcmod.cn/class/6630.html>
 - EMI Addon: Extra Mod Integrations(EMI附加模组整合)
@@ -394,3 +388,4 @@
    地址: <https://www.mcmod.cn/class/15464.html>
 - Eternal Nether
    地址：<https://www.mcmod.cn/class/19570.html>
+ 
