@@ -116,8 +116,6 @@
 3. 格雷(主线，自定义)
 4. mek(中期加入，后期联系其他mod聚变)
 5. EIO(万金油，前中期加入后稍微限制一)
-6. 热力(稍微加强，合金炉或有机灌注机加强)
-7. 龙研(后期格雷,creat联动)
 
 ### create及其附属联动
 
@@ -196,6 +194,9 @@
    地址: <https://www.mcmod.cn/class/17147.html>
 9. Modular Machinery Reborn(同上)
    地址: <https://www.mcmod.cn/class/17026.html>
+
+### EIO
+ 
 
 ## 冒险类
 
