@@ -53,9 +53,9 @@
 - Touhou Little Maid(车万女仆)
    地址: <https://www.mcmod.cn/class/1796.html>
 - Explorer's Compass Edited(探险者指南针)
-   地址: <https://www.mcmod.cn/class/9476.html>
+   地址: <https://www.mcmod.cn/class/17202.html>
 - Immersive Aircraft(沉浸式飞行器)
-   地址: <https://www.mcmod.cn/class/6729.html>
+   地址: <https://www.mcmod.cn/class/8527.html>
 - FTB Teams(FTB团队)
    地址: <https://www.mcmod.cn/class/4999.html>
 - FTB Ultimine(FTB终极挖掘)
@@ -94,10 +94,10 @@
    地址: <https://www.mcmod.cn/class/10338.html>
 - HugMe!(抱抱我)
    地址: <https://www.mcmod.cn/class/10618.html>
-- Create Confectionery(机械动力：糖果制作)
-   地址: <https://www.mcmod.cn/class/11506.html>
+- Create Confectionery(机械动力：甜食)
+   地址: <https://www.mcmod.cn/class/4871.html>
 - Ponder(思考者)
-   地址: <https://www.mcmod.cn/class/6594.html>
+   地址: <https://www.mcmod.cn/class/7205.html>
 - Terra Curio(泰拉饰品)
    地址: <https://www.mcmod.cn/class/14983.html>
 - Storage Drawers(储物抽屉)
@@ -125,45 +125,45 @@
 - Torchmaster(火把大师)
    地址: <https://www.mcmod.cn/class/1274.html>
 - ReHooked(重新钩住)
-   地址: <https://www.mcmod.cn/class/19893.html>
+   地址: <https://www.mcmod.cn/class/17549.html>
 - Aquaculture 2(水产养殖2)
    地址: <https://www.mcmod.cn/class/2061.html>
 - Lootr(战利品)
    地址: <https://www.mcmod.cn/class/2924.html>
-- Create: Mechanical Confection(机械动力：机械糖果)
-   地址: <https://www.mcmod.cn/class/19027.html>
+- Create: Mechanical Confection(机械动力：蛋糕工坊)
+   地址: <https://www.mcmod.cn/class/19652.html>
 - Time in a bottle [FORGE\NEOFORGE\FABRIC](时间之瓶)
-   地址: <https://www.mcmod.cn/class/11938.html>
+   地址: <https://www.mcmod.cn/class/11512.html>
 - Time in a bottle Curio Support(时间之瓶饰品支持)
    地址: <https://www.mcmod.cn/class/12499.html>
 - Goblin Traders(哥布林商人)
-   地址: <https://www.mcmod.cn/class/3161.html>
+   地址: <https://www.mcmod.cn/class/2353.html>
 - toNeko(猫娘)
-   地址: <https://www.mcmod.cn/class/20231.html>
+   地址: <https://www.mcmod.cn/class/13223.html>
 - △Extreme Sound Muffler(极限消音器)
-   地址: <https://www.mcmod.cn/class/5127.html>
+   地址: <https://www.mcmod.cn/class/5533.html>
 - △Item Borders(物品边框)
-   地址: <https://www.mcmod.cn/class/4915.html>
+   地址: <https://www.mcmod.cn/class/5073.html>
 - Dank Storage(潮湿存储)
-   地址: <https://www.mcmod.cn/class/3324.html>
+   地址: <https://www.mcmod.cn/class/6290.html>
 - FindMe(找到我)
-   地址: <https://www.mcmod.cn/class/5311.html>
+   地址: <https://www.mcmod.cn/class/2156.html>
 - Akashic Tome(阿卡什宝典)
    地址: <https://www.mcmod.cn/class/688.html>
 - Happy Ghast Backported(快乐恶魂回移)
-   地址: <https://www.mcmod.cn/class/14671.html>
+   地址: <https://www.mcmod.cn/class/19050.html>
 - Everything is Copper(万物皆铜)
-   地址: <https://www.mcmod.cn/class/8825.html>
+   地址: <https://www.mcmod.cn/class/10641.html>
 - △Chat Heads(聊天头像)
-   地址: <https://www.mcmod.cn/class/4536.html>
+   地址: <https://www.mcmod.cn/class/4523.html>
 - ExpOrbRecall(经验球回收)
-   地址: <https://www.mcmod.cn/class/8717.html>
+   地址: <https://www.mcmod.cn/class/19084.html>
 - Bonsai Trees(盆景树)
-   地址: <https://www.mcmod.cn/class/1851.html>
+   地址: <https://www.mcmod.cn/class/1104.html>
 - △Health Overlay / Colorful Hearts(彩色生命值)
-   地址: <https://www.mcmod.cn/class/4969.html>
+   地址: <https://www.mcmod.cn/class/1871.html>
 - YUNG's Bridges(YUNG的桥梁)
-   地址: <https://www.mcmod.cn/class/7638.html>
+   地址: <https://www.mcmod.cn/class/5031.html>
 - Polymorphic Energistics(AE2多态合成适配)
    地址: <https://www.mcmod.cn/class/14995.html>
 - Reap(收割)
@@ -175,31 +175,31 @@
 - △Just Enough Characters(JEC字符扩展)
    地址: <https://www.mcmod.cn/class/2764.html>
 - Kiss Mod Transplant(Kiss模组移植)
-   地址: <https://www.mcmod.cn/class/20232.html>
+   地址: <https://www.mcmod.cn/class/20231.html>
 - Just Enough Items(JEI物品管理器)
    地址: <https://www.mcmod.cn/class/459.html>
 - EMI(EMI物品索引)
-   地址: <https://www.mcmod.cn/class/7608.html>
+   地址: <https://www.mcmod.cn/class/6630.html>
 - EMI Addon: Extra Mod Integrations(EMI附加模组整合)
-   地址: <https://www.mcmod.cn/class/11508.html>
+   地址: <https://www.mcmod.cn/class/8330.html>
 - EMI Loot(EMI战利品)
-   地址: <https://www.mcmod.cn/class/8965.html>
+   地址: <https://www.mcmod.cn/class/8566.html>
 - EMI Ores(EMI矿物)
-   地址: <https://www.mcmod.cn/class/9205.html>
+   地址: <https://www.mcmod.cn/class/15123.html>
 - △EMIffect(EMI效果)
-   地址: <https://www.mcmod.cn/class/11854.html>
+   地址: <https://www.mcmod.cn/class/8144.html>
 - △EMI Enchanting(EMI附魔)
-   地址: <https://www.mcmod.cn/class/11852.html>
+   地址: <https://www.mcmod.cn/class/15388.html>
 - △EMI professions(EMI职业)
-   地址: <https://www.mcmod.cn/class/11855.html>
+   地址: <https://www.mcmod.cn/class/15939.html>
 - △TooManyRecipeViewers(太多配方查看器)
-   地址: <https://www.mcmod.cn/class/20102.html>
+   地址: <https://www.mcmod.cn/class/19518.html>
 - JER Integration(JER整合)
    地址: <https://www.mcmod.cn/class/4629.html>
 - △Just Enough Resources(JER资源足够)
    地址: <https://www.mcmod.cn/class/836.html>
 - △EMI++(EMI增强)
-   地址: <https://www.mcmod.cn/class/13728.html>
+   地址: <https://www.mcmod.cn/class/20168.html>
 - AE2 JEI Integration(AE2与JEI整合)
    地址: <https://www.mcmod.cn/class/19141.html>
 - Creeper Firework(苦力怕烟花)
@@ -298,70 +298,62 @@
 ## 冒险类
 
 - Advancement Plaques(成就徽章)
-   地址: <https://www.mcmod.cn/class/2829.html>
+   地址: <https://www.mcmod.cn/class/5265.html>
 - Apotheosis(神化)
-   地址: <https://www.mcmod.cn/class/2081.html>
+   地址: <https://www.mcmod.cn/class/1708.html>
 - Ancient Reforging(远古重铸)
    地址: <https://www.mcmod.cn/class/16348.html>
 - Apothic Combat(神话战斗)
-   地址: <https://www.mcmod.cn/class/11854.html>
+   地址: <https://www.mcmod.cn/class/18145.html>
 - Beautiful Enchanted Books(美丽的附魔书)
-   地址: <https://www.mcmod.cn/class/8819.html>
+   地址: <https://www.mcmod.cn/class/17111.html>
 - Better Combat(更好的战斗)
-   地址: <https://www.mcmod.cn/class/4731.html> <!-- 未找到mcmod.cn上的独立页面 -->
+   地址: <https://www.mcmod.cn/class/7110.html>
 - Traveler's Titles(旅行者称号)
-   地址: <https://www.mcmod.cn/class/8595.html> <!-- 链接已确认 -->
+   地址: <https://www.mcmod.cn/class/4471.html>
 - End Remastered(末地重制)
-   地址: <https://www.mcmod.cn/class/4698.html>
+   地址: <https://www.mcmod.cn/class/3369.html>
 - The Twilight Forest(暮色森林)
    地址: <https://www.mcmod.cn/class/61.html>
 - Twilight Forest - Dungeons & Villages(暮色森林-地牢与村庄)
-   地址: <https://www.mcmod.cn/class/16908.html>
+   地址: <https://www.mcmod.cn/class/19915.html>
 - Eternal Starlight(永恒星光)
-   地址: <https://www.mcmod.cn/class/12514.html>
+   地址: <https://www.mcmod.cn/class/15980.html>
 - Confluence: Otherworld(汇流来世)
    地址: <https://www.mcmod.cn/class/18650.html>
 - Deeper And Darker(更深更暗)
-   地址: <https://www.mcmod.cn/class/7609.html>
+   地址: <https://www.mcmod.cn/class/7369.html>
 - The Aether(天境)
-   地址: <https://www.mcmod.cn/class/47.html> <!-- 未找到mcmod.cn上的独立页面 -->
+   地址: <https://www.mcmod.cn/class/47.html> // 注意：需要确认链接是否正确
 - Aether Villages(天境村庄)
-   地址: <https://www.mcmod.cn/class/11538.html> <!-- 未找到mcmod.cn上的独立页面 -->
+   地址: <https://www.mcmod.cn/class/15868.html>
 - Structory(结构库)
-   地址: <https://www.mcmod.cn/class/11857.html> <!-- 未找到mcmod.cn上的独立页面 -->
+   地址: <https://www.mcmod.cn/class/6793.html>
 - Kobolds!(狗头人)
-   地址: <https://www.mcmod.cn/class/10974.html> <!-- 未找到mcmod.cn上的独立页面 -->
+   地址: <https://www.mcmod.cn/class/9732.html>
 - Earth Mobs(地球生物)
-   地址: <https://www.mcmod.cn/class/6594.html>
+   地址: <https://www.mcmod.cn/class/7972.html>
 - YUNG's API(YUNG的API)
-   地址: <https://www.mcmod.cn/class/7638.html>
+   地址: <https://www.mcmod.cn/class/3372.html>
 - YUNG的沙漠神殿优化(YUNG's Better Desert Temples)
-   地址: <https://www.mcmod.cn/class/7640.html>
+   地址: <https://www.mcmod.cn/class/6613.html>
 - YUNG的末地岛屿优化(YUNG's Better End Island)
-   地址: <https://www.mcmod.cn/class/11859.html>
+   地址: <https://www.mcmod.cn/class/12175.html>
 - YUNG的丛林神殿优化(YUNG's Better Jungle Temples)
-   地址: <https://www.mcmod.cn/class/7641.html>
+   地址: <https://www.mcmod.cn/class/12060.html>
 - YUNG的矿井优化(YUNG's Better Mineshafts)
-   地址: <https://www.mcmod.cn/class/7642.html>
+   地址: <https://www.mcmod.cn/class/2788.html>
 - YUNG的下届要塞优化(YUNG's Better Nether Fortresses)
-   地址: <https://www.mcmod.cn/class/7643.html>
-- YUNG的海底神殿优化(YUNG's Better Ocean Monuments)
-   地址: <https://www.mcmod.cn/class/7644.html>
-- YUNG的要塞优化(YUNG's Better Strongholds)
-   地址: <https://www.mcmod.cn/class/7645.html>
-- YUNG的沼泽小屋优化(YUNG's Better Witch Huts)
-   地址: <https://www.mcmod.cn/class/7646.html>
-- YUNG的桥(YUNG's Bridges)
-   地址: <https://www.mcmod.cn/class/7638.html> <!-- 与YUNG's API共享链接，未找到独立页面 -->
+   地址: <https://www.mcmod.cn/class/9384.html>
 - YUNG's Extras(YUNG的额外内容)
-   地址: <https://www.mcmod.cn/class/11860.html>
+   地址: <https://www.mcmod.cn/class/4276.html>
 - [IAFCE]冰火传说社区版IceAndFire Community Edition(冰火传说社区版)
-   地址: <https://www.mcmod.cn/class/11861.html>
+   地址: <https://www.mcmod.cn/class/15464.html>
 - Telos(泰洛斯)
-   地址: <https://www.mcmod.cn/class/11862.html>
+   地址: <https://www.mcmod.cn/class/13433.html>
 - Ender Dragon Fight Remastered(末影龙战斗重制)
-   地址: <https://www.mcmod.cn/class/11863.html>
+   地址: <https://www.mcmod.cn/class/10116.html>
 - DarkMobs - Increase Mob Difficulty(黑暗生物-增加生物难度)
-   地址: <https://www.mcmod.cn/class/11864.html>
+   地址: <https://www.mcmod.cn/class/12402.html>
 - Improved Mobs(改进生物)
-   地址: <https://www.mcmod.cn/class/11865.html>
+   地址: <https://www.mcmod.cn/class/3645.html>
