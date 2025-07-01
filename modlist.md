@@ -30,7 +30,6 @@
 - Rhino
 - Cupboard
 - Framework
-- ctLib
 - Forgified Fabric API
 - Prism
 - Iceberg
@@ -64,8 +63,6 @@
    地址: <https://www.mcmod.cn/class/5824.html>
 - △ Modern UI(现代化UI)
    地址: <https://www.mcmod.cn/class/2454.html>
-- ModernFix(现代化修复)
-   地址: <https://www.mcmod.cn/class/8714.html>
 - AttributeFix(属性修复)
    地址: <https://www.mcmod.cn/class/2443.html>
 - △ Controlling(按键冲突显示)
@@ -90,8 +87,6 @@
    地址: <https://www.mcmod.cn/class/1736.html>
 
 ## 生活质量
-- Minecolonies(模拟殖民地)
-   地址:<https://www.mcmod.cn/class/682.html>
 - Touhou Little Maid(车万女仆)
    地址: <https://www.mcmod.cn/class/1796.html>
 - Explorer's Compass Edited(探险者指南针)
@@ -142,8 +137,6 @@
    地址: <https://www.mcmod.cn/class/4871.html>
 - Ponder for KubeJS(思考者)
    地址: <https://www.mcmod.cn/class/7205.html>
-- Terra Curio(泰拉饰品)
-   地址: <https://www.mcmod.cn/class/14983.html>
 - Storage Drawers(储物抽屉)
    地址: <https://www.mcmod.cn/class/408.html>
 - Farmer's Delight(农夫乐事)
@@ -182,8 +175,6 @@
    地址: <https://www.mcmod.cn/class/12499.html>
 - Goblin Traders(哥布林商人)
    地址: <https://www.mcmod.cn/class/2353.html>
-- toNeko(猫娘)
-   地址: <https://www.mcmod.cn/class/13223.html>
 - △Extreme Sound Muffler(极限消音器)
    地址: <https://www.mcmod.cn/class/5533.html>
 - △Item Borders(物品边框)
@@ -273,8 +264,6 @@
    地址: <https://www.mcmod.cn/class/18864.html>
 9. Create: Enchantment Industry(伟大的附魔工业)
    地址: <https://www.mcmod.cn/class/7892.html>
-10. Create Ultimine(生活质量:连锁挖掘联动)
-    地址: <https://www.mcmod.cn/class/19138.html>
 
 ### AE2机器附属联动
 
@@ -360,14 +349,8 @@
    地址: <https://www.mcmod.cn/class/19915.html>
 - Eternal Starlight(永恒星光)
    地址: <https://www.mcmod.cn/class/15980.html>
-- Confluence: Otherworld(汇流来世)
-   地址: <https://www.mcmod.cn/class/18650.html>
 - Deeper And Darker(更深更暗)
    地址: <https://www.mcmod.cn/class/7369.html>
-- The Aether(天境)
-   地址: <https://www.mcmod.cn/class/47.html>
-- Aether Villages(天境村庄)
-   地址: <https://www.mcmod.cn/class/15868.html>
 - Structory(结构库)
    地址: <https://www.mcmod.cn/class/6793.html>
 - Kobolds!(狗头人)
