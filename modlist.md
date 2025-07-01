@@ -81,6 +81,8 @@
    地址: <https://www.mcmod.cn/class/6846.html>
 - Jade 🔍(玉-JEI信息显示)
    地址: <https://www.mcmod.cn/class/3482.html>
+- JadeColonies
+   地址:<https://www.mcmod.cn/class/15048.html>
 - Waystones(传送石碑)
    地址: <https://www.mcmod.cn/class/1123.html>
 - Better Villages(更好的村庄)
