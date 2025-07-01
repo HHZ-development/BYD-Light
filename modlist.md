@@ -50,6 +50,8 @@ Multi-Piston
 BlockUI
 Domum Ornamentum
 TownTalk
+TerraBlender
+GlitchCore
 
 ## 优化类
 
@@ -65,6 +67,7 @@ Get It Together,Drops！(物品聚合)
 
 Touhou Little Maid(车万女仆)
 Explorer's Compass Edited(探险者指南针)
+Nature's Compass
 Immersive Aircraft(沉浸式飞行器)
 FTB Teams(FTB团队)
 FTB Ultimine(FTB终极挖掘)
@@ -123,6 +126,10 @@ EMI Ores (EMI 矿石)
 JER Integration (JER 集成)
 AE2 JEI Integration (AE2 JEI 集成)
 Creeper Firework(苦力怕烟花)
+OpenBlocks Elevator / ElevatorMod
+Biomes O' Plenty
+Comforts
+ConnectedTexturesMod
 
 ## 大类
 
@@ -221,3 +228,4 @@ TooManyRecipeViewers(太多配方查看器)
 Just Enough Characters (通用拼音搜索)
 Just Enough Resources(JER资源足够)
 Ok Zoomer(Ok缩放)
+Enchantment-Descriptions
