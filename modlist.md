@@ -249,9 +249,8 @@
 
 1. create(贯穿主线)
 2. AE2(前期加入方便后期自动)
-3. 格雷(主线，自定义)
-4. mek(中期加入，后期联系其他mod聚变)
-5. EIO(万金油，前中期加入后稍微限制一下)
+3. mek(中期加入，后期联系其他mod聚变)
+4. EIO(万金油，前中期加入后稍微限制一下)
 
 ### create及其附属联动
 
@@ -298,14 +297,6 @@
     地址: <https://www.mcmod.cn/class/17591.html>
 10. Ars Énergistique(AE2新生魔艺联动) (不一定加)
     地址: <https://www.mcmod.cn/class/12603.html>
-
-### GT及其拓展附属
-
-1. GregTechCEu Modern
-   地址: <https://www.mcmod.cn/class/12850.html>
-   参考资料: <https://www.mcmod.cn/post/3820.html> 使用 KubeJS 自定义GTM(熟读)
-3. GTCEu/GTM能源拓展Gregfluxology(FE电转EU)(考虑)
-   地址: <https://www.mcmod.cn/class/17498.html>
 
 ### MEK及其拓展附属
 
