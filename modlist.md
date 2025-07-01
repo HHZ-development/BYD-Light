@@ -12,8 +12,6 @@
    地址: <https://www.mcmod.cn/class/2029.html>
 - GeckoLib
    地址:<https://www.mcmod.cn/class/3232.html>
-- PlayerAnimator
-   地址:<https://www.mcmod.cn/class/7487.html>
 - AzureLib
    地址:<https://www.mcmod.cn/class/9321.html>
 
@@ -55,6 +53,8 @@
    地址: <https://www.mcmod.cn/class/1736.html>
 
 ## 生活质量
+- Domum Ornamentum
+   地址:<https://www.mcmod.cn/class/5506.html>
 - Minecolonies(模拟殖民地)
    地址:<https://www.mcmod.cn/class/682.html>
 - Touhou Little Maid(车万女仆)
