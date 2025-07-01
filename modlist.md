@@ -213,12 +213,11 @@
 2. AE2(前期加入方便后期自动)
 3. 格雷(主线，自定义)
 4. mek(中期加入，后期联系其他mod聚变)
-5. EIO(万金油，前中期加入后稍微限制一)
+5. EIO(万金油，前中期加入后稍微限制一下)
 
 ### create及其附属联动
 
 1. Create(机械动力)
-   地址: <https://www.mcmod.cn/class/1404.html>
 2. Create Ore Excavation(矿井，记得自定义，原版太鸡le)
    地址: <https://www.mcmod.cn/class/7300.html>
    参考文章: <https://www.mcmod.cn/post/3606.html> [1.20+] 使用KubeJS添加可开采的矿脉
