@@ -1,5 +1,5 @@
 # mod列表
-# （△为客户端向模组）
+# （为客户端向模组）
 
 ## 前置
 
@@ -54,19 +54,12 @@ TownTalk
 ## 优化类
 
 Save My Shaky Network(网络优化)
-△ Modern UI(现代化UI)
 AttributeFix(属性修复)
-△ Controlling(按键冲突显示)
 FastFurnace(快速熔炉)
 FastSuite(快速套件)
 FastWorkbench(快速工作台)
 MaxHealthFix(最大生命值修复)
-sodium(钠)
-sodium extra(钠扩展)
-△ Sodium/Embeddium Dynamic Lights(钠/Embeddium动态光源)
-△I18nUpdateMod(本地化更新)
 Get It Together,Drops！(物品聚合)
-△ FPS Reducer(FPS降低器)
 
 ## 生活质量
 
@@ -111,42 +104,30 @@ Lootr (掠夺者)
 Time in a bottle FORGE\NEOFORGE\FABRIC
 Time in a bottle Curio Support(时间之瓶饰品支持)
 Goblin Traders(哥布林商人)
-△Extreme Sound Muffler(极限消音器)
-△Item Borders (物品边框)
 Dank Storage (潮湿存储)
 FindMe(找到我)
 Akashic Tome(阿卡什宝典)
 Happy Ghast Backported (快乐恶魂移植)
 Everything is Copper (万物皆铜)
-△Chat Heads(聊天头像)
 ExpOrbRecall (经验球召回)
 Bonsai Trees(盆景树)
-△Health Overlay / Colorful Hearts(彩色生命值)
 YUNG's Bridges (YUNG 的桥梁)
 Polymorphic Energistics (多态能动学)
 Reap (收割)
 Sea Creeps (海洋蠕变)
 Supplementaries (补充)
-△Just Enough Characters (恰好足够的字符)
 EMI(EMI物品索引)
 EMI Addon: Extra Mod Integrations (EMI 插件：额外 Mod 集成)
 EMI Loot (EMI 战利品)
 EMI Ores (EMI 矿石)
-△EMIffect (EMI 效果)
-△EMI Enchanting (EMI 附魔)
-△EMI professions (EMI 职业)
-△TooManyRecipeViewers(太多配方查看器)
 JER Integration (JER 集成)
-△Just Enough Resources(JER资源足够)
 AE2 JEI Integration (AE2 JEI 集成)
 Creeper Firework(苦力怕烟花)
-△Ok Zoomer(Ok缩放)
 
 ## 大类
 
 create(贯穿主线)
 AE2(前期加入方便后期自动)
-格雷(主线，自定义)
 mek(中期加入，后期联系其他mod聚变)
 EIO(万金油，前中期加入后稍微限制一下)
 
@@ -177,11 +158,6 @@ MEGA Cells (MEGA 单元)
 AE2 Things (AE2 物品)
 AE2 MEGA Things (AE2 MEGA 物品)
 Ars Énergistique(AE2新生魔艺联动) (不一定加)
-
-## GT及其拓展附属
-
-GregTechCEu Modern   参考资料: 使用 KubeJS 自定义GTM(熟读)
-Gregfluxology(FE电转EU)(考虑)
 
 ## MEK及其拓展附属
 
@@ -224,3 +200,24 @@ YUNG's Better Mineshafts(YUNG的矿井优化)
 YUNG's Extras (YUNG 的额外内容)
 IceAndFire Community Edition(冰火传说社区版)
 Eternal Nether (永恒地狱)
+
+## 客户端向
+
+Modern UI(现代化UI)
+Controlling(按键冲突显示)
+sodium(钠)
+sodium extra(钠扩展)
+Sodium/Embeddium Dynamic Lights(钠/Embeddium动态光源)
+I18nUpdateMod(本地化更新)
+FPS Reducer(FPS降低器)
+Extreme Sound Muffler(极限消音器)
+Item Borders (物品边框)
+Chat Heads(聊天头像)
+Colorful Hearts(彩色生命值)
+EMIffect (EMI 效果)
+EMI Enchanting (EMI 附魔)
+EMI professions (EMI 职业)
+TooManyRecipeViewers(太多配方查看器)
+Just Enough Characters (通用拼音搜索)
+Just Enough Resources(JER资源足够)
+Ok Zoomer(Ok缩放)
