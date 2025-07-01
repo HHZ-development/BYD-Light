@@ -1,374 +1,226 @@
 # mod列表
+# （△为客户端向模组）
 
 ## 前置
 
-- Sophisticated Core(精妙核心)
-   地址: <https://www.mcmod.cn/class/6324.html>
-- FTB Library(FTB前置库)
-   地址: <https://www.mcmod.cn/class/3184.html>
-- PlayerAnimator(玩家动画库)
-   地址: <https://www.mcmod.cn/class/7487.html>
-- Curios API(奇异饰品)
-   地址: <https://www.mcmod.cn/class/2029.html>
-- GeckoLib
-   地址:<https://www.mcmod.cn/class/3232.html>
-- AzureLib
-   地址:<https://www.mcmod.cn/class/9321.html>
-- Bookshelf
-- Prickle
-- Searchables
-- Placebo
-- Sodium/Embeddium Options API
-- Reese's Sodium Options
-- Cloth Config API
-- PolyLib
-- Architectury API
-- Balm
-- Library Ferret
-- SuperMartijn642's Config Lib
-- SuperMartijn642's Core Lib
-- Rhino
-- Cupboard
-- Framework
-- Forgified Fabric API
-- Prism
-- Iceberg
-- YUNG's API
-- Moonlight Lib
-- Fzzy Config
-- Kotlin for Forge
-- GuideME
-- Create: Dragons Plus
-- Glodium
-- LDLib
-- Configuration
-- ExperienceLib
-- Woodwalkers
-- CraftedCore
-- Lionfish-API
-- oωo (owo-lib)
-- Bagus Lib
-- Jupiter
-- Uranus
-- Puzzles Lib
-- Structurize
-- Multi-Piston
-- BlockUI
-- Domum Ornamentum
-- TownTalk
+Sophisticated Core
+FTB Library
+PlayerAnimator
+Curios API
+GeckoLib
+AzureLib
+Bookshelf
+Prickle
+Searchables
+Placebo
+Sodium/Embeddium Options API
+Reese's Sodium Options
+Cloth Config API
+PolyLib
+Architectury API
+Balm
+Library Ferret
+SuperMartijn642's Config Lib
+SuperMartijn642's Core Lib
+Rhino
+Cupboard
+Framework
+Forgified Fabric API
+Prism
+Iceberg
+YUNG's API
+Moonlight Lib
+Fzzy Config
+Kotlin for Forge
+GuideME
+Glodium
+LDLib
+Configuration
+ExperienceLib
+Woodwalkers
+CraftedCore
+Lionfish-API
+oωo
+Bagus Lib
+Jupiter
+Uranus
+Puzzles Lib
+Structurize
+Multi-Piston
+BlockUI
+Domum Ornamentum
+TownTalk
 
-## 优化类（带△的仅支持客户端的）
+## 优化类
 
-- Save My Shaky Network(网络优化)
-   地址: <https://www.mcmod.cn/class/5824.html>
-- △ Modern UI(现代化UI)
-   地址: <https://www.mcmod.cn/class/2454.html>
-- AttributeFix(属性修复)
-   地址: <https://www.mcmod.cn/class/2443.html>
-- △ Controlling(按键冲突显示)
-   地址: <https://www.mcmod.cn/class/1142.html>
-- FastFurnace(快速熔炉)
-   地址: <https://www.mcmod.cn/class/1729.html>
-- FastSuite(快速套件)
-   地址: <https://www.mcmod.cn/class/8413.html>
-- FastWorkbench(快速工作台)
-   地址: <https://www.mcmod.cn/class/1486.html>
-- MaxHealthFix(最大生命值修复)
-   地址: <https://www.mcmod.cn/class/2544.html>
-- sodium
-- sodium extra
-- △ Sodium/Embeddium Dynamic Lights(钠/Embeddium动态光源)
-   地址: <https://www.mcmod.cn/class/5302.html>
-- △I18nUpdateMod(本地化更新)
-   地址: <https://www.mcmod.cn/class/1188.html>
-- Get It Together,Drops！(物品聚合)
-   地址: <https://www.mcmod.cn/class/5312.html>
-- △ FPS Reducer(FPS降低器)
-   地址: <https://www.mcmod.cn/class/1736.html>
+Save My Shaky Network(网络优化)
+△ Modern UI(现代化UI)
+AttributeFix(属性修复)
+△ Controlling(按键冲突显示)
+FastFurnace(快速熔炉)
+FastSuite(快速套件)
+FastWorkbench(快速工作台)
+MaxHealthFix(最大生命值修复)
+sodium(钠)
+sodium extra(钠扩展)
+△ Sodium/Embeddium Dynamic Lights(钠/Embeddium动态光源)
+△I18nUpdateMod(本地化更新)
+Get It Together,Drops！(物品聚合)
+△ FPS Reducer(FPS降低器)
 
 ## 生活质量
-- Touhou Little Maid(车万女仆)
-   地址: <https://www.mcmod.cn/class/1796.html>
-- Explorer's Compass Edited(探险者指南针)
-   地址: <https://www.mcmod.cn/class/17202.html>
-- Immersive Aircraft(沉浸式飞行器)
-   地址: <https://www.mcmod.cn/class/8527.html>
-- FTB Teams(FTB团队)
-   地址: <https://www.mcmod.cn/class/4999.html>
-- FTB Ultimine(FTB终极挖掘)
-   地址: <https://www.mcmod.cn/class/7225.html>
-- FTB Quests(FTB任务)
-   地址: <https://www.mcmod.cn/class/3526.html>
-- FTB Chunks(FTB区块)
-   地址: <https://www.mcmod.cn/class/4897.html>
-- FTB Essentials(FTB基础)
-   地址: <https://www.mcmod.cn/class/9301.html>
-- FTB Backups 2(FTB备份2)
-   地址: <https://www.mcmod.cn/class/6851.html>
-- Sophisticated Backpacks(精妙背包)
-   地址: <https://www.mcmod.cn/class/6063.html>
-- Sophisticated Storage(精妙存储)
-   地址: <https://www.mcmod.cn/class/6846.html>
-- Jade 🔍(玉-JEI信息显示)
-   地址: <https://www.mcmod.cn/class/3482.html>
-- JadeColonies
-   地址:<https://www.mcmod.cn/class/15048.html>
-- Waystones(传送石碑)
-   地址: <https://www.mcmod.cn/class/1123.html>
-- Better Villages(更好的村庄)
-   地址: <https://www.mcmod.cn/class/7103.html>
-- Champions-Unofficial(冠军怪物-非官方版)
-   地址: <https://www.mcmod.cn/class/7799.html>
-- Entangled(量子纠缠)
-   地址: <https://www.mcmod.cn/class/3258.html>
-- Corail's Tombstone(墓碑)
-   地址: <https://www.mcmod.cn/class/1474.html>
-- Polymorph(多态合成)
-   地址: <https://www.mcmod.cn/class/3350.html>
-- Simple Magnets(简单磁铁)
-   地址: <https://www.mcmod.cn/class/5128.html>
-- Spice of Life: Carrot Edition(生活调料：胡萝卜版)
-   地址: <https://www.mcmod.cn/class/6097.html>
-- ChatBox(聊天盒)
-   地址: <https://www.mcmod.cn/class/10338.html>
-- HugMe!(抱抱我)
-   地址: <https://www.mcmod.cn/class/10618.html>
-- Create Confectionery(机械动力：甜食)
-   地址: <https://www.mcmod.cn/class/4871.html>
-- Ponder for KubeJS(思考者)
-   地址: <https://www.mcmod.cn/class/7205.html>
-- Storage Drawers(储物抽屉)
-   地址: <https://www.mcmod.cn/class/408.html>
-- Farmer's Delight(农夫乐事)
-   地址: <https://www.mcmod.cn/class/2820.html>
-- End's Delight(末地乐事)
-   地址: <https://www.mcmod.cn/class/8596.html>
-- Expanded Delight(扩展乐事)
-   地址: <https://www.mcmod.cn/class/9663.html>
-- Pineapple Delight(菠萝乐事)
-   地址: <https://www.mcmod.cn/class/12027.html>
-- Ocean's Delight(海洋乐事)
-   地址: <https://www.mcmod.cn/class/8840.html>
-- L_Ender 's Cataclysm Delight(灾变乐事)
-   地址: <https://www.mcmod.cn/class/12486.html>
-- Storage Delight(存储乐事)
-   地址: <https://www.mcmod.cn/class/14080.html>
-- Twilight's Flavors & Delight(暮色森林风味乐事)
-   地址: <https://www.mcmod.cn/class/10839.html>
-- Glowing Ores (Glore)(发光矿石)
-   地址: <https://www.mcmod.cn/class/6848.html>
-- Beautify!(美化)
-   地址: <https://www.mcmod.cn/class/8327.html>
-- Torchmaster(火把大师)
-   地址: <https://www.mcmod.cn/class/1274.html>
-- ReHooked(重新钩住)
-   地址: <https://www.mcmod.cn/class/17549.html>
-- Aquaculture 2(水产养殖2)
-   地址: <https://www.mcmod.cn/class/2061.html>
-- Lootr(战利品)
-   地址: <https://www.mcmod.cn/class/2924.html>
-- Create: Mechanical Confection(机械动力：蛋糕工坊)
-   地址: <https://www.mcmod.cn/class/19652.html>
-- Time in a bottle [FORGE\NEOFORGE\FABRIC](时间之瓶)
-   地址: <https://www.mcmod.cn/class/11512.html>
-- Time in a bottle Curio Support(时间之瓶饰品支持)
-   地址: <https://www.mcmod.cn/class/12499.html>
-- Goblin Traders(哥布林商人)
-   地址: <https://www.mcmod.cn/class/2353.html>
-- △Extreme Sound Muffler(极限消音器)
-   地址: <https://www.mcmod.cn/class/5533.html>
-- △Item Borders(物品边框)
-   地址: <https://www.mcmod.cn/class/5073.html>
-- Dank Storage(潮湿存储)
-   地址: <https://www.mcmod.cn/class/6290.html>
-- FindMe(找到我)
-   地址: <https://www.mcmod.cn/class/2156.html>
-- Akashic Tome(阿卡什宝典)
-   地址: <https://www.mcmod.cn/class/688.html>
-- Happy Ghast Backported(快乐恶魂回移)
-   地址: <https://www.mcmod.cn/class/19050.html>
-- Everything is Copper(万物皆铜)
-   地址: <https://www.mcmod.cn/class/10641.html>
-- △Chat Heads(聊天头像)
-   地址: <https://www.mcmod.cn/class/4523.html>
-- ExpOrbRecall(经验球回收)
-   地址: <https://www.mcmod.cn/class/19084.html>
-- Bonsai Trees(盆景树)
-   地址: <https://www.mcmod.cn/class/1104.html>
-- △Health Overlay / Colorful Hearts(彩色生命值)
-   地址: <https://www.mcmod.cn/class/1871.html>
-- YUNG's Bridges(YUNG的桥梁)
-   地址: <https://www.mcmod.cn/class/5031.html>
-- Polymorphic Energistics(AE2多态合成适配)
-   地址: <https://www.mcmod.cn/class/14995.html>
-- Reap(收割)
-   地址: <https://www.mcmod.cn/class/4633.html>
-- Sea Creeps(海洋怪物)
-   地址: <https://www.mcmod.cn/class/12513.html>
-- Supplementaries(辅助工具)
-   地址: <https://www.mcmod.cn/class/3404.html>
-- △Just Enough Characters(JEC字符扩展)
-   地址: <https://www.mcmod.cn/class/2764.html>
-- EMI(EMI物品索引)
-   地址: <https://www.mcmod.cn/class/6630.html>
-- EMI Addon: Extra Mod Integrations(EMI附加模组整合)
-   地址: <https://www.mcmod.cn/class/8330.html>
-- EMI Loot(EMI战利品)
-   地址: <https://www.mcmod.cn/class/8566.html>
-- EMI Ores(EMI矿物)
-   地址: <https://www.mcmod.cn/class/15123.html>
-- △EMIffect(EMI效果)
-   地址: <https://www.mcmod.cn/class/8144.html>
-- △EMI Enchanting(EMI附魔)
-   地址: <https://www.mcmod.cn/class/15388.html>
-- △EMI professions(EMI职业)
-   地址: <https://www.mcmod.cn/class/15939.html>
-- △TooManyRecipeViewers(太多配方查看器)
-   地址: <https://www.mcmod.cn/class/19518.html>
-- JER Integration(JER整合)
-   地址: <https://www.mcmod.cn/class/4629.html>
-- △Just Enough Resources(JER资源足够)
-   地址: <https://www.mcmod.cn/class/836.html>
-- AE2 JEI Integration(AE2与JEI整合)
-   地址: <https://www.mcmod.cn/class/19141.html>
-- Creeper Firework(苦力怕烟花)
-   地址: <https://www.mcmod.cn/class/4872.html>
-- △Ok Zoomer(Ok缩放)
-   地址: <https://www.mcmod.cn/class/3082.html>
+
+Touhou Little Maid(车万女仆)
+Explorer's Compass Edited(探险者指南针)
+Immersive Aircraft(沉浸式飞行器)
+FTB Teams(FTB团队)
+FTB Ultimine(FTB终极挖掘)
+FTB Quests(FTB任务)
+FTB Chunks(FTB区块)
+FTB Essentials(FTB基础)
+FTB Backups 2(FTB备份2)
+Sophisticated Backpacks(精妙背包)
+Sophisticated Storage(精妙存储)
+Jade 🔍(玉-JEI信息显示)
+Waystones(传送石碑)
+Better Villages(更好的村庄)
+Champions-Unofficial(冠军怪物-非官方版)
+Entangled(量子纠缠)
+Corail's Tombstone(墓碑)
+Polymorph(多态合成)
+Simple Magnets(简单磁铁)
+Spice of Life: Carrot Edition(生活调料：胡萝卜版)
+ChatBox(聊天盒)
+HugMe!(抱抱我)
+Ponder for KubeJS(思考者)
+Storage Drawers(储物抽屉)
+Farmer's Delight(农夫乐事)
+End's Delight(末地乐事)
+Expanded Delight(扩展乐事)
+Pineapple Delight(菠萝乐事)
+Ocean's Delight(海洋乐事)
+L_Ender 's Cataclysm Delight(灾变乐事)
+Storage Delight (存储乐事)
+Twilight's Flavors & Delight(暮色森林风味乐事)
+Glowing Ores (Glore)(发光矿石)
+Beautify!(美化)
+Torchmaster(火把大师)
+ReHooked (重新钩住)
+Aquaculture 2(水产养殖2)
+Lootr (掠夺者)
+Time in a bottle FORGE\NEOFORGE\FABRIC
+Time in a bottle Curio Support(时间之瓶饰品支持)
+Goblin Traders(哥布林商人)
+△Extreme Sound Muffler(极限消音器)
+△Item Borders (物品边框)
+Dank Storage (潮湿存储)
+FindMe(找到我)
+Akashic Tome(阿卡什宝典)
+Happy Ghast Backported (快乐恶魂移植)
+Everything is Copper (万物皆铜)
+△Chat Heads(聊天头像)
+ExpOrbRecall (经验球召回)
+Bonsai Trees(盆景树)
+△Health Overlay / Colorful Hearts(彩色生命值)
+YUNG's Bridges (YUNG 的桥梁)
+Polymorphic Energistics (多态能动学)
+Reap (收割)
+Sea Creeps (海洋蠕变)
+Supplementaries (补充)
+△Just Enough Characters (恰好足够的字符)
+EMI(EMI物品索引)
+EMI Addon: Extra Mod Integrations (EMI 插件：额外 Mod 集成)
+EMI Loot (EMI 战利品)
+EMI Ores (EMI 矿石)
+△EMIffect (EMI 效果)
+△EMI Enchanting (EMI 附魔)
+△EMI professions (EMI 职业)
+△TooManyRecipeViewers(太多配方查看器)
+JER Integration (JER 集成)
+△Just Enough Resources(JER资源足够)
+AE2 JEI Integration (AE2 JEI 集成)
+Creeper Firework(苦力怕烟花)
+△Ok Zoomer(Ok缩放)
 
 ## 大类
 
-1. create(贯穿主线)
-2. AE2(前期加入方便后期自动)
-3. 格雷(主线，自定义)
-4. mek(中期加入，后期联系其他mod聚变)
-5. EIO(万金油，前中期加入后稍微限制一下)
+create(贯穿主线)
+AE2(前期加入方便后期自动)
+格雷(主线，自定义)
+mek(中期加入，后期联系其他mod聚变)
+EIO(万金油，前中期加入后稍微限制一下)
 
-### create及其附属联动
+## create及其附属联动
 
-1. Create(机械动力)
-2. Create Ore Excavation(矿井，记得自定义，原版太鸡le)
-   地址: <https://www.mcmod.cn/class/7300.html>
-   参考文章: <https://www.mcmod.cn/post/3606.html> [1.20+] 使用KubeJS添加可开采的矿脉
-3. Create: Liquid Fuel(液体燃料)
-   地址: <https://www.mcmod.cn/class/12606.html>
-4. Create: Cyber Goggles(优化及部分配置)
-   地址: <https://www.mcmod.cn/class/18629.html>
-5. Create: Molten Vents(create矿物再生)
-   地址: <https://www.mcmod.cn/class/10038.html>
-6. Create: Let The Adventure Begin(生活质量:遗迹)
-   地址: <https://www.mcmod.cn/class/16477.html>
-7. Create: Enchantable Machinery(工具附魔)
-   地址: <https://www.mcmod.cn/class/16402.html>
-8. Create Better FPS(优化) ( 闪电注意！！)
-   地址: <https://www.mcmod.cn/class/18864.html>
-9. Create: Enchantment Industry(伟大的附魔工业)
-   地址: <https://www.mcmod.cn/class/7892.html>
+Create(机械动力)
+Create Ore Excavation(矿井，记得自定义，原版太鸡肋)   参考文章: [1.20+] 使用KubeJS添加可开采的矿脉
+Create: Liquid Fuel (创造：液体燃料)
+Create: Cyber Goggles (创造：赛博护目镜)
+Create: Molten Vents (创造：熔融喷口)
+Create: Let The Adventure Begin (创造：让冒险开始)
+Create: Enchantable Machinery (创造：可附魔的机械)
+Create Better FPS (创造更好的 FPS) ( 闪电注意！！)
+Create: Enchantment Industry (创造：附魔工业)
+Create Confectionery(机械动力：甜食)
+Create: Mechanical Confection(机械动力：蛋糕工坊)
+Create: Dragons Plus
 
-### AE2机器附属联动
+## AE2机器附属联动
 
-1. AE2(应用能源2)
-   地址: <https://www.mcmod.cn/class/260.html>
-2. Applied Mekanistics(AE2与MEK联动)
-   地址: <https://www.mcmod.cn/class/6055.html>
-3. ME Requester(网络缓存)
-   地址: <https://www.mcmod.cn/class/10066.html>
-4. AE2: Crafting Tree(合成)
-   地址: <https://www.mcmod.cn/class/16167.html>
-5. AdvancedAE(高级AE)
-   地址: <https://www.mcmod.cn/class/16225.html>
-6. ExtendedAE(AE2拓展)
-   地址: <https://www.mcmod.cn/class/11534.html>
-7. MEGA Cells(MEGA)
-   地址: <https://www.mcmod.cn/class/6792.html>
-8. AE2 Things(深度存储)
-   地址: <https://www.mcmod.cn/class/6421.html>
-9. AE2 MEGA Things(MEGA深度存储)
-    地址: <https://www.mcmod.cn/class/17591.html>
-10. Ars Énergistique(AE2新生魔艺联动) (不一定加)
-    地址: <https://www.mcmod.cn/class/12603.html>
+AE2(应用能源2)
+Applied Mekanistics(AE2与MEK联动)
+ME Requester (ME 请求者)
+AE2: Crafting Tree (AE2：工艺树)
+AdvancedAE (高级 AE)
+ExtendedAE (扩展 AE)
+MEGA Cells (MEGA 单元)
+AE2 Things (AE2 物品)
+AE2 MEGA Things (AE2 MEGA 物品)
+Ars Énergistique(AE2新生魔艺联动) (不一定加)
 
-### GT及其拓展附属
+## GT及其拓展附属
 
-1. GregTechCEu Modern
-   地址: <https://www.mcmod.cn/class/12850.html>
-   参考资料: <https://www.mcmod.cn/post/3820.html> 使用 KubeJS 自定义GTM(熟读)
-3. GTCEu/GTM能源拓展Gregfluxology(FE电转EU)(考虑)
-   地址: <https://www.mcmod.cn/class/17498.html>
+GregTechCEu Modern   参考资料: 使用 KubeJS 自定义GTM(熟读)
+Gregfluxology(FE电转EU)(考虑)
 
-### MEK及其拓展附属
+## MEK及其拓展附属
 
-1. Mekanism(通用机械)
-   地址: <https://www.mcmod.cn/class/187.html>
-2. Mekanism Generators(mek发电)
-   地址: <https://www.mcmod.cn/class/1323.html>
-3. Mekanism Tools(mek工具)
-   地址: <https://www.mcmod.cn/class/1615.html>
-4. Mekanism Additions(mek附加)
-   地址: <https://www.mcmod.cn/class/2437.html>
-5. More Mekanism Processing(为mek添加更多矿处)
-   地址: <https://www.mcmod.cn/class/6484.html>
-6. Mekanism Unleashed(mek速度超级加强)(记得调config)
-   地址: <https://www.mcmod.cn/class/16084.html>
-7. Mekanism: More Machine(更多机器)(让mek变成IC2了？)
-   地址: <https://www.mcmod.cn/class/20094.html>
-8. Modular Machinery Reborn Mekanism(mek多方块自定义)
-   地址: <https://www.mcmod.cn/class/17147.html>
-9. Modular Machinery Reborn(同上)
-   地址: <https://www.mcmod.cn/class/17026.html>
+Mekanism(通用机械)
+Mekanism Generators (通用机械发电机)
+Mekanism Tools (通用机械工具)
+Mekanism Additions (通用机械附加)
+More Mekanism Processing (更多通用机械处理)
+Mekanism Unleashed (通用机械释放) (记得调config)
+Mekanism: More Machine (通用机械：更多机器) (让mek变成IC2了？)
+Modular Machinery Reborn Mekanism (模块化机械重生通用机械)
+Modular Machinery Reborn (模块化机械重生)
 
-### EIO
- 
+## EIO
 
 ## 冒险类
-- Remorphed
-   地址：<https://www.mcmod.cn/class/14687.html>
-- Iron's Spells 'n Spellbooks(Iron的法术与魔法书)
-   地址：<https://www.mcmod.cn/class/10175.html>
-- Crystal Chronicles
-   地址：<https://www.mcmod.cn/class/17510.html>
-- L_Ender 's Cataclysm
-   地址:<https://www.mcmod.cn/class/5214.html>
-- Cataclysm Weaponery
-   地址:<https://www.mcmod.cn/class/10285.html>
-- Cataclysm: Spellbooks
-   地址:<https://www.mcmod.cn/class/16469.html>
-- Advancement Plaques(成就徽章)
-   地址: <https://www.mcmod.cn/class/5265.html>
-- Beautiful Enchanted Books(美丽的附魔书)
-   地址: <https://www.mcmod.cn/class/17111.html>
-- Better Combat(更好的战斗)
-   地址: <https://www.mcmod.cn/class/7110.html>
-- Traveler's Titles(旅行者称号)
-   地址: <https://www.mcmod.cn/class/4471.html>
-- End Remastered(末地重制)
-   地址: <https://www.mcmod.cn/class/3369.html>
-- The Twilight Forest(暮色森林)
-   地址: <https://www.mcmod.cn/class/61.html>
-- Twilight Forest - Dungeons & Villages(暮色森林-地牢与村庄)
-   地址: <https://www.mcmod.cn/class/19915.html>
-- Eternal Starlight(永恒星光)
-   地址: <https://www.mcmod.cn/class/15980.html>
-- Deeper And Darker(更深更暗)
-   地址: <https://www.mcmod.cn/class/7369.html>
-- Structory(结构库)
-   地址: <https://www.mcmod.cn/class/6793.html>
-- Kobolds!(狗头人)
-   地址: <https://www.mcmod.cn/class/9732.html>
-- Earth Mobs(地球生物)
-   地址: <https://www.mcmod.cn/class/7972.html>
-- YUNG的沙漠神殿优化(YUNG's Better Desert Temples)
-   地址: <https://www.mcmod.cn/class/6613.html>
-- YUNG的末地岛屿优化(YUNG's Better End Island)
-   地址: <https://www.mcmod.cn/class/12175.html>
-- YUNG的丛林神殿优化(YUNG's Better Jungle Temples)
-   地址: <https://www.mcmod.cn/class/12060.html>
-- YUNG的矿井优化(YUNG's Better Mineshafts)
-   地址: <https://www.mcmod.cn/class/2788.html>
-- YUNG's Extras(YUNG的额外内容)
-   地址: <https://www.mcmod.cn/class/4276.html>
-- [IAFCE]冰火传说社区版IceAndFire Community Edition(冰火传说社区版)
-   地址: <https://www.mcmod.cn/class/15464.html>
-- Eternal Nether
-   地址：<https://www.mcmod.cn/class/19570.html>
- 
+
+Remorphed (重塑)
+Iron's Spells 'n Spellbooks(Iron的法术与魔法书)
+Crystal Chronicles (水晶编年史)
+L_Ender 's Cataclysm (L_Ender 的灾变)
+Cataclysm Weaponery (灾变武器)
+Cataclysm: Spellbooks (灾变：魔法书)
+Advancement Plaques(成就徽章)
+Beautiful Enchanted Books(美丽的附魔书)
+Better Combat(更好的战斗)
+Traveler's Titles(旅行者称号)
+End Remastered(末地重制)
+The Twilight Forest(暮色森林)
+Twilight Forest - Dungeons & Villages(暮色森林-地牢与村庄)
+Eternal Starlight (永恒星光)
+Deeper And Darker (更深更暗)
+Structory (结构)
+Kobolds! (狗头人！)
+Earth Mobs (地球生物)
+YUNG's Better Desert TemplesYUNG(的沙漠神殿优化)
+YUNG's Better End Island(YUNG的末地岛屿优化)
+YUNG's Better Jungle Temples(YUNG的丛林神殿优化)
+YUNG's Better Mineshafts(YUNG的矿井优化)
+YUNG's Extras (YUNG 的额外内容)
+IceAndFire Community Edition(冰火传说社区版)
+Eternal Nether (永恒地狱)
