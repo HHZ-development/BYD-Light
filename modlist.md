@@ -14,6 +14,36 @@
    地址:<https://www.mcmod.cn/class/3232.html>
 - AzureLib
    地址:<https://www.mcmod.cn/class/9321.html>
+- Bookshelf
+- Prickle
+- Searchables
+- Placebo
+- Sodium/Embeddium Options API
+- Reese's Sodium Options
+- Cloth Config API
+- PolyLib
+- Architectury API
+- Balm
+- Library Ferret
+- SuperMartijn642's Config Lib
+- SuperMartijn642's Core Lib
+- Rhino
+- Cupboard
+- Framework
+- ctLib
+- Forgified Fabric API
+- Prism
+- Iceberg
+- YUNG's API
+- Moonlight Lib
+- Fzzy Config
+- Kotlin for Forge
+- GuideME
+- Create: Dragons Plus
+- Glodium
+- LDLib
+- Configuration
+- ExperienceLib
 
 ## 优化类（带△的仅支持客户端的）
 
@@ -33,10 +63,6 @@
    地址: <https://www.mcmod.cn/class/8413.html>
 - FastWorkbench(快速工作台)
    地址: <https://www.mcmod.cn/class/1486.html>
-- Fastload(快速加载)
-   地址: <https://www.mcmod.cn/class/3249.html>
-- LazyDFU(懒惰DFU)
-   地址: <https://www.mcmod.cn/class/3407.html>
 - MaxHealthFix(最大生命值修复)
    地址: <https://www.mcmod.cn/class/2544.html>
 - △ Embeddium(Rubidium)Extra(钠/铷扩展)
@@ -105,7 +131,7 @@
    地址: <https://www.mcmod.cn/class/10618.html>
 - Create Confectionery(机械动力：甜食)
    地址: <https://www.mcmod.cn/class/4871.html>
-- Ponder(思考者)
+- Ponder for KubeJS(思考者)
    地址: <https://www.mcmod.cn/class/7205.html>
 - Terra Curio(泰拉饰品)
    地址: <https://www.mcmod.cn/class/14983.html>
@@ -207,8 +233,6 @@
    地址: <https://www.mcmod.cn/class/4629.html>
 - △Just Enough Resources(JER资源足够)
    地址: <https://www.mcmod.cn/class/836.html>
-- △EMI++(EMI增强)
-   地址: <https://www.mcmod.cn/class/20168.html>
 - AE2 JEI Integration(AE2与JEI整合)
    地址: <https://www.mcmod.cn/class/19141.html>
 - Creeper Firework(苦力怕烟花)
