@@ -1,5 +1,4 @@
 # mod列表
-# （为客户端向模组）
 
 ## 前置
 
@@ -34,11 +33,8 @@ Fzzy Config
 Kotlin for Forge
 GuideME
 Glodium
-LDLib
 Configuration
 ExperienceLib
-Woodwalkers
-CraftedCore
 Lionfish-API
 oωo
 Bagus Lib
@@ -116,7 +112,6 @@ FindMe(找到我)
 Akashic Tome(阿卡什宝典)
 Happy Ghast Backported (快乐恶魂移植)
 Everything is Copper (万物皆铜)
-ExpOrbRecall (经验球召回)
 Bonsai Trees(盆景树)
 YUNG's Bridges (YUNG 的桥梁)
 Polymorphic Energistics (多态能动学)
@@ -202,7 +197,6 @@ Modular Machinery Reborn (模块化机械重生)
 
 ## 冒险类
 
-Remorphed (重塑)
 Iron's Spells 'n Spellbooks(Iron的法术与魔法书)
 Crystal Chronicles (水晶编年史)
 L_Ender 's Cataclysm (L_Ender 的灾变)
