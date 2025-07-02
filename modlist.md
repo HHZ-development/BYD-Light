@@ -230,7 +230,6 @@ minecolonies
 
 ## 客户端向
 
-Modern UI(现代化UI)
 Controlling(按键冲突显示)
 sodium(钠)
 sodium extra(钠扩展)
