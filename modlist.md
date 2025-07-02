@@ -50,6 +50,9 @@ BlockUI
 TownTalk
 TerraBlender
 GlitchCore
+multipiston
+structurize
+domum-ornamentum
 
 ## 优化类
 
@@ -222,6 +225,7 @@ YUNG's Better Mineshafts(YUNG的矿井优化)
 YUNG's Extras (YUNG 的额外内容)
 IceAndFire Community Edition(冰火传说社区版)
 Eternal Nether (永恒地狱)
+minecolonies
 
 ## 客户端向
 
