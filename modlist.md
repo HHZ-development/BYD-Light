@@ -171,6 +171,7 @@ Create Confectionery(机械动力：甜食)
 Create: Mechanical Confection(机械动力：蛋糕工坊)
 Create: Dragons Plus
 Create Crafts & Additions
+Create: Central Kitchen
 
 ## AE2机器附属联动
 
