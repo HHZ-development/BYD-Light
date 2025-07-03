@@ -1,4 +1,6 @@
 ### Bug反馈
+
+
 经验球召回(掉落经验直接导致服务器崩溃)
 
 ### 涉及模组：经验球召回
@@ -13,7 +15,6 @@ at com.jinqinxixi.exporbrecall.entity.EntityExpOrb.tick(EntityExpOrb.java:48)
 在经验球实体 (EntityExpOrb) 的 tick() 方法中（代码第48行），尝试读取配置值前未检查配置是否已加载。
 
 当经验球生成时，模组配置可能尚未初始化（尤其是服务器启动阶段），导致游戏崩溃。
-
 环境信息：
 
 Minecraft 版本：1.21.1
