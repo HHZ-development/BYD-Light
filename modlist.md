@@ -229,7 +229,6 @@ minecolonies
 
 Controlling(按键冲突显示)
 I18nUpdateMod(本地化更新)
-FPS Reducer(FPS降低器)
 Extreme Sound Muffler(极限消音器)
 Item Borders (物品边框)
 Chat Heads(聊天头像)
