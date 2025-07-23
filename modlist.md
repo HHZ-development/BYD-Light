@@ -12,8 +12,6 @@ Bookshelf
 Prickle
 Searchables
 Placebo
-Sodium/Embeddium Options API
-Reese's Sodium Options
 Cloth Config API
 PolyLib
 Architectury API
@@ -63,6 +61,11 @@ In Control!
 KubeJs
 Not-Enough-Crashes
 Almost Unified
+lithium（锂）
+sodium（钠）
+Sodium/Embeddium Dynamic Lights(钠/Embeddium动态光源)
+FPS Reducer（FPS减速器）
+FerriteCore（铁氧体磁芯）
 
 ## 生活质量
 
@@ -225,9 +228,6 @@ minecolonies
 ## 客户端向
 
 Controlling(按键冲突显示)
-sodium(钠)
-sodium extra(钠扩展)
-Sodium/Embeddium Dynamic Lights(钠/Embeddium动态光源)
 I18nUpdateMod(本地化更新)
 FPS Reducer(FPS降低器)
 Extreme Sound Muffler(极限消音器)
@@ -245,10 +245,7 @@ Enchantment-Descriptions
 Mouse-Tweaks
 AppleSkin
 Skin Layers 3D
-Remove Reloading Screen
 Tips
 Falling Leaves
 Auth Me
-Iris & Oculus Flywheel Compat
-iris
 Client Sort
