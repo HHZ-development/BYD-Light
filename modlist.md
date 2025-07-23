@@ -209,11 +209,11 @@ Advancement Plaques(成就徽章)
 Beautiful Enchanted Books(美丽的附魔书)
 Better Combat(更好的战斗)
 Traveler's Titles(旅行者称号)
-End Remastered(末地重制)
+End Remastered(末地重制)- 最终 BOOS加强
 The Twilight Forest(暮色森林)
 Twilight Forest - Dungeons & Villages(暮色森林-地牢与村庄)
 Eternal Starlight (永恒星光)
-Deeper And Darker (更深更暗)
+Deeper And Darker (更深更暗) ×
 Kobolds! (狗头人！)
 Earth Mobs (地球生物)
 YUNG's Better Desert TemplesYUNG(的沙漠神殿优化)
