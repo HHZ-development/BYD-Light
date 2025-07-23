@@ -147,21 +147,6 @@ Farming for Blockheads
 Pipez
 Iron-Furnaces
 
-## 大类
-
-create(贯穿主线)
-AE2(前期加入方便后期自动)
-mek(中期加入，后期联系其他mod聚变)
-EIO(万金油，前中期加入后稍微限制一下)
-
-
-
-
-
-
-
-## EIO
-
 ## 冒险类
 
 Iron's Spells 'n Spellbooks(Iron的法术与魔法书)
