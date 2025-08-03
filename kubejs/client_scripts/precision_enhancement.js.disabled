@@ -1,0 +1,149 @@
+// 精密构件物品修改和增强
+// TODO: 物品工具提示功能暂时禁用
+// 等待找到正确的1.21.1语法后重新启用
+/*
+ItemEvents.modification(event => {
+    
+    // 为精密构件添加额外的工具提示信息
+    event.modify('kubejs:basic_precision_component', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§f工作台').component,
+            Text.of('§7解锁机械：§a基础Create机械').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:improved_precision_component', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§f工作台').component,
+            Text.of('§7解锁机械：§a机械合成器、序列变速箱').component,
+            Text.of('§7前置构件：§e基础精密构件').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:advanced_precision_component', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§f工作台').component,
+            Text.of('§7解锁机械：§a转速控制器、机械轴承').component,
+            Text.of('§7前置构件：§e改良精密构件').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:expert_precision_component', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§f工作台').component,
+            Text.of('§7解锁机械：§a发条轴承等顶级机械').component,
+            Text.of('§7前置构件：§e高级精密构件').component,
+            Text.of('§c需要特殊材料：§6精炼精密合金').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:master_precision_component', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§c机械合成器').component,
+            Text.of('§7解锁机械：§a传奇级机械').component,
+            Text.of('§7前置构件：§e专家级精密构件').component,
+            Text.of('§c需要特殊材料：§6晶化精密基质').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:legendary_precision_component', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§c制作需求：§4机械合成器 §c(11x11)').component,
+            Text.of('§c解锁机械：§4终极自动化系统').component,
+            Text.of('§7前置构件：§e大师级精密构件').component,
+            Text.of('§c需要特殊材料：§4下界之星').component,
+            Text.of('§4警告：制作成本极其昂贵！').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:refined_precision_alloy', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§c机械合成器 §7(5x5)').component,
+            Text.of('§7用途：§e专家级以上精密构件').component,
+            Text.of('§7特性：§a优异的机械性能').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:crystalline_precision_matrix', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§c序列装配').component,
+            Text.of('§7用途：§e大师级以上精密构件').component,
+            Text.of('§6特性：§d蕴含神秘力量').component,
+            Text.of('§d能够完美传递机械能量').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:precision_gear_assembly', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§f工作台').component,
+            Text.of('§7用途：§e高级精密构件制作').component,
+            Text.of('§7特性：§a高精度齿轮传动').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+    
+    event.modify('kubejs:precision_shaft_core', item => {
+        item.tooltip.add([
+            Text.of('§8 ').component,
+            Text.of('§7制作需求：§f工作台').component,
+            Text.of('§7用途：§e专家级精密构件制作').component,
+            Text.of('§7特性：§a超精密轴承核心').component,
+            Text.of('§a保证完美的转动精度').component,
+            Text.of('§8————————————————————————').component,
+            Text.of('§6精密构件系统 v1.0').component
+        ])
+    })
+})
+*/
+
+// 添加特殊音效和粒子效果
+// TODO: 暂时禁用交互效果，等待找到正确的1.21.1语法
+/*
+ItemEvents.rightClicked(event => {
+    let { player, item } = event
+    
+    // 传奇精密构件点击音效
+    if (item.id === 'kubejs:legendary_precision_component') {
+        player.playSound('minecraft:block.beacon.activate', 0.5, 1.2)
+        // 添加粒子效果
+        player.level.spawnParticles('minecraft:enchant', true, 
+            player.x, player.y + 1, player.z, 
+            0.5, 0.5, 0.5, 10, 0.1)
+    }
+    
+    // 晶化精密基质点击音效
+    if (item.id === 'kubejs:crystalline_precision_matrix') {
+        player.playSound('minecraft:block.amethyst_block.chime', 0.7, 1.5)
+        // 添加魔法粒子效果
+        player.level.spawnParticles('minecraft:portal', true,
+            player.x, player.y + 1, player.z,
+            0.3, 0.3, 0.3, 15, 0.1)
+    }
+})
+*/
