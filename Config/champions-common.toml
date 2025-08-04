@@ -12,7 +12,7 @@
 	#The minimum tier of champions that will have death messages sent out upon defeat (0 to disable)
 	# Default: 0
 	# Range: > 0
-	deathMessageTier = 0
+	deathMessageTier = 1
 	#A list of dimension names that are blacklisted/whitelisted for champions
 	dimensionList = []
 	#Set whether the dimension list is a blacklist or whitelist

@@ -1,6 +1,6 @@
 {
   "dragon": {
-    "iceandfire.dragon.maxHealth": 500.0,
+    "iceandfire.dragon.maxHealth": 3000,
     "iceandfire.dragon.eggBornTime": 7200,
     "iceandfire.dragon.maxPathingNodes": 5000,
     "iceandfire.dragon.villagersFear": true,
@@ -11,16 +11,16 @@
     "iceandfire.dragon.generate.denGoldAmount": 0.25,
     "iceandfire.dragon.generate.oreRatio": 0.022222222222222223,
     "iceandfire.dragon.griefing": true,
-    "iceandfire.dragon.tamedGriefing": true,
+    "iceandfire.dragon.tamedGriefing": false,
     "iceandfire.dragon.flapNoiseDistance": 4,
     "iceandfire.dragon.fluteDistance": 8,
-    "iceandfire.dragon.attackDamage": 17,
-    "iceandfire.dragon.attackDamageFire": 2.0,
-    "iceandfire.dragon.attackDamageIce": 2.5,
-    "iceandfire.dragon.attackDamageLightning": 3.5,
+    "iceandfire.dragon.attackDamage": 50,
+    "iceandfire.dragon.attackDamageFire": 10,
+    "iceandfire.dragon.attackDamageIce": 10,
+    "iceandfire.dragon.attackDamageLightning": 10,
     "iceandfire.dragon.maxFlight": 256,
     "iceandfire.dragon.goldSearchLength": 30,
-    "iceandfire.dragon.canHealFromBiting": false,
+    "iceandfire.dragon.canHealFromBiting": true,
     "iceandfire.dragon.canDespawn": true,
     "iceandfire.dragon.sleep": true,
     "iceandfire.dragon.digWhenStuck": true,
@@ -29,7 +29,7 @@
     "iceandfire.dragon.wanderFromHomeDistance": 40,
     "iceandfire.dragon.hungerTickRate": 3000,
     "iceandfire.dragon.blockBreakingDropChance": 0.1,
-    "iceandfire.dragon.explosiveBreath": false,
+    "iceandfire.dragon.explosiveBreath": true,
     "iceandfire.dragon.chunkLoadSummonCrystal": true,
     "iceandfire.dragon.dragonFlightSpeedMod": 1.0,
     "iceandfire.dragon.maxTamedDragonAge": 128,
@@ -51,18 +51,18 @@
   "cyclops": {
     "iceandfire.cyclops.spawnWanderingChance": 0.0011111111111111111,
     "iceandfire.cyclops.sheepSearchLength": 17,
-    "iceandfire.cyclops.maxHealth": 150.0,
-    "iceandfire.cyclops.attackDamage": 15.0,
-    "iceandfire.cyclops.biteDamage": 40.0,
+    "iceandfire.cyclops.maxHealth": 1000,
+    "iceandfire.cyclops.attackDamage": 30,
+    "iceandfire.cyclops.biteDamage": 800,
     "iceandfire.cyclops.griefing": true
   },
   "siren": {
-    "iceandfire.siren.maxHealth": 50.0,
+    "iceandfire.siren.maxHealth": 300,
     "iceandfire.siren.maxSingTime": 12000,
     "iceandfire.siren.timeBetweenSongs": 2000
   },
   "gorgon": {
-    "iceandfire.gorgon.maxHealth": 100.0
+    "iceandfire.gorgon.maxHealth": 500
   },
   "deathworm": {
     "iceandfire.deathworm.spawnChance": 0.03333333333333333,
