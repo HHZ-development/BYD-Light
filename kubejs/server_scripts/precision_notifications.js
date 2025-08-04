@@ -59,7 +59,7 @@ PlayerEvents.loggedIn(event => {
     // 延迟3秒显示欢迎消息
     event.server.scheduleInTicks(60, () => {
         player.tell('§6===========================================')
-        player.tell('§e       欢迎来到 HongHuCraft 精密构件系统')
+        player.tell('§e       欢迎来到 HongHuCraft')
         player.tell('§6===========================================')
         player.tell('§a这是一个基于 Create 模组的进阶制作系统')
         player.tell('§b• 使用 §e/precision help §b查看调试命令')

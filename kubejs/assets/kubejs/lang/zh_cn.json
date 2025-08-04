@@ -37,5 +37,19 @@
   "precision.stage.legendary.message": "§4§l[传奇成就] §f恭喜！你已经掌握了精密构件系统的全部奥秘！",
   "precision.stage.legendary.tip": "§e你现在是真正的精密构件大师！",
   
-  "precision.border": "§6◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆"
+  "precision.border": "§6◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆",
+  
+  "item.kubejs.basic_circuit": "基础电路板",
+  "item.kubejs.advanced_circuit": "高级电路板",
+  "item.kubejs.atomic_circuit": "原子电路板",
+  "item.kubejs.quantum_circuit": "量子电路板",
+  "item.kubejs.hyper_circuit": "超能电路板",
+  "item.kubejs.cosmic_circuit": "宇宙电路板",
+
+  "tooltip.kubejs.basic_circuit": "§7最基础的电路核心，适用于初级机械",
+  "tooltip.kubejs.advanced_circuit": "§b经过升级的电路板，性能更强",
+  "tooltip.kubejs.atomic_circuit": "§d原子级精度的电路板，适用于高端设备",
+  "tooltip.kubejs.quantum_circuit": "§6量子科技的结晶，突破传统极限",
+  "tooltip.kubejs.hyper_circuit": "§e超能级电路，驱动顶级机械",
+  "tooltip.kubejs.cosmic_circuit": "§c宇宙级科技产物，终极电路板"
 }
