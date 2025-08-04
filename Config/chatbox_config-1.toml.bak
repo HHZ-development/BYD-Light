@@ -1,0 +1,4 @@
+[config]
+	# Default: 10
+	# Range: > 1
+	historical_scroll_speed = 10
