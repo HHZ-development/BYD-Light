@@ -53,30 +53,16 @@ ServerEvents.recipes(event => {
     // 基于玩家成就或物品解锁新配方
     
     // 当玩家获得钻石时解锁高级配方
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            'ABA',
-            'CDC',
-            'AEA'
-        ],
-        key: {
-            A: { item: 'kubejs:refined_precision_alloy' },
-            B: { item: 'create:rotation_speed_controller' },
-            C: { item: 'kubejs:improved_precision_component' },
-            D: { item: 'kubejs:precision_gear_assembly' },
-            E: { item: 'create:shadow_steel' }
-        },
-        result: {
-            item: 'kubejs:advanced_precision_component',
-            count: 1
-        },
-        conditions: [
-            {
-                type: 'forge:item_exists',
-                item: 'minecraft:diamond'
-            }
-        ]
+    event.shaped('kubejs:advanced_precision_component', [
+        'ABA',
+        'CDC',
+        'AEA'
+    ], {
+        A: 'kubejs:refined_precision_alloy',
+        B: 'create:rotation_speed_controller',
+        C: 'kubejs:improved_precision_component',
+        D: 'kubejs:precision_gear_assembly',
+        E: 'create:shadow_steel'
     })
     
 })
@@ -99,19 +85,22 @@ PlayerEvents.inventoryChanged(event => {
     
     if (precisionItems.includes(item.id)) {
         // 记录玩家进度（可以用于统计或成就系统）
-        let playerData = player.persistentData
+        const playerData = player.persistentData
         if (!playerData.precisionProgress) {
             playerData.precisionProgress = {}
         }
         
-        playerData.precisionProgress[item.id] = true
-        
-        // 发送进度消息
-        const itemName = item.displayName
-        player.tell(`§a[精密构件系统] §f你获得了 ${itemName}！`)
-        
-        // 检查是否解锁新阶段
-        checkStageUnlock(player, item.id)
+        // 防止重复消息 - 只在首次获得时显示
+        if (!playerData.precisionProgress[item.id]) {
+            playerData.precisionProgress[item.id] = true
+            
+            // 发送进度消息
+            const itemName = item.displayName
+            player.tell(`§a[精密构件系统] §f你获得了 ${itemName}！`)
+            
+            // 检查是否解锁新阶段
+            checkStageUnlock(player, item.id)
+        }
     }
 })
 
@@ -132,9 +121,10 @@ function checkStageUnlock(player, itemId) {
         // 播放音效
         player.playSound('minecraft:entity.player.levelup', 1.0, 1.0)
         
-        // 发送全服消息（对于高阶构件）
+        // 发送全服消息（对于高阶构件） - 简化以避免JSON乱码
         if (itemId === 'kubejs:master_precision_component' || itemId === 'kubejs:legendary_precision_component') {
-            player.server.runCommandSilent(`tellraw @a {"text":"§6[服务器] §f玩家 ${player.name} 获得了 ${player.getHeldItem('main_hand').displayName}§f！","color":"gold"}`)
+            // 使用简单的广播消息代替复杂的tellraw
+            player.server.runCommandSilent(`say §6[服务器] §f玩家 ${player.name} 获得了传奇构件！`)
         }
     }
 }
@@ -142,16 +132,17 @@ function checkStageUnlock(player, itemId) {
 // ============ 配置文件支持 ============
 // 服务器启动时读取配置
 ServerEvents.loaded(event => {
-    // 初始化全局配置
-    global.serverConfig = {
-        easyMode: false,      // 简化模式
-        hardMode: true,       // 困难模式
-        enableStages: true,   // 启用阶段系统
-        enableMessages: true  // 启用进度消息
+    // 初始化全局配置 - 使用Utils.server来存储配置
+    const server = event.server
+    if (server) {
+        server.persistentData.put('precisionConfig', {
+            easyMode: false,      // 简化模式
+            hardMode: true,       // 困难模式
+            enableStages: true,   // 启用阶段系统
+            enableMessages: true  // 启用进度消息
+        })
     }
     
-    console.log('§a[精密构件系统] 配置加载完成')
-    console.log(`§7简化模式: ${global.serverConfig.easyMode}`)
-    console.log(`§7困难模式: ${global.serverConfig.hardMode}`)
-    console.log(`§7阶段系统: ${global.serverConfig.enableStages}`)
+    // 移除console.log以避免聊天乱码
+    // console.log('§a[精密构件系统] 配置加载完成')
 })

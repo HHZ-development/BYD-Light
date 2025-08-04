@@ -1,0 +1,41 @@
+{
+  "item.kubejs.basic_precision_component": "基础精密构件",
+  "item.kubejs.improved_precision_component": "改良精密构件",
+  "item.kubejs.advanced_precision_component": "高级精密构件",
+  "item.kubejs.expert_precision_component": "专家级精密构件",
+  "item.kubejs.master_precision_component": "大师级精密构件",
+  "item.kubejs.legendary_precision_component": "传奇精密构件",
+  "item.kubejs.precision_gear_assembly": "精密齿轮组件",
+  "item.kubejs.precision_shaft_core": "精密轴心核心",
+  "item.kubejs.refined_precision_alloy": "精炼精密合金",
+  "item.kubejs.crystalline_precision_matrix": "晶化精密基质",
+  
+  "tooltip.kubejs.basic_precision_component": "§7精密构件系统的起点",
+  "tooltip.kubejs.improved_precision_component": "§b经过改良的精密构件",
+  "tooltip.kubejs.advanced_precision_component": "§d高级工艺制作的精密构件",
+  "tooltip.kubejs.expert_precision_component": "§6专家级的精密工艺杰作",
+  "tooltip.kubejs.master_precision_component": "§e大师级的终极精密构件",
+  "tooltip.kubejs.legendary_precision_component": "§c传说级的完美精密构件",
+  
+  "precision.announcement.welcome": "§6欢迎来到 HongHuCraft 精密构件系统",
+  "precision.announcement.help": "§b• 使用 §e/precision help §b查看调试命令",
+  "precision.announcement.crafting": "§b• 在机械装配台中制作精密构件",
+  "precision.announcement.progression": "§b• 从基础阶段开始，逐步解锁更高级的构件",
+  "precision.announcement.newbie": "§7[新手提示] 从制作 §a基础精密构件 §7开始你的旅程！",
+  "precision.announcement.welcome_back": "§a[欢迎回来] §f你已经完成了精密构件进度！",
+  
+  "precision.stage.basic.message": "§a[阶段解锁] §f基础阶段完成！现在可以制作改良精密构件了！",
+  "precision.stage.basic.tip": "§7提示: 改良精密构件需要在基础构件的基础上添加更多材料",
+  "precision.stage.improved.message": "§b[阶段解锁] §f改良阶段完成！高级精密构件现已解锁！",
+  "precision.stage.improved.tip": "§7提示: 高级构件需要精密机械部件和特殊合金",
+  "precision.stage.advanced.message": "§d[阶段解锁] §f高级阶段完成！专家级构件等待你的挑战！",
+  "precision.stage.advanced.tip": "§7提示: 专家级构件需要复杂的组装流程",
+  "precision.stage.expert.message": "§6[阶段解锁] §f专家阶段完成！大师级构件已开放！",
+  "precision.stage.expert.tip": "§7提示: 大师级构件是真正的挑战，需要完美的精度",
+  "precision.stage.master.message": "§c[阶段解锁] §f大师阶段完成！传奇构件等待着真正的大师！",
+  "precision.stage.master.tip": "§7提示: 传奇构件是最终挑战，需要所有前置构件",
+  "precision.stage.legendary.message": "§4§l[传奇成就] §f恭喜！你已经掌握了精密构件系统的全部奥秘！",
+  "precision.stage.legendary.tip": "§e你现在是真正的精密构件大师！",
+  
+  "precision.border": "§6◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆"
+}
