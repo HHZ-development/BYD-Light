@@ -15,7 +15,8 @@ ServerEvents.recipes(event => {
         MASTER: 'precision_master',
         LEGENDARY: 'precision_legendary'
     }
-    
+})
+
 // ============ 玩家进度跟踪 ============
 PlayerEvents.inventoryChanged(event => {
     const { player, item } = event
