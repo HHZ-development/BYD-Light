@@ -1,0 +1,28 @@
+{
+  "rarities": {
+    "legendary": {
+      "formatting": {
+        "color": "gold",
+        "bold": true
+      },
+      "tooltip_color": "gold"
+    },
+    "mythic": {
+      "formatting": {
+        "color": "light_purple",
+        "bold": true,
+        "italic": true
+      },
+      "tooltip_color": "light_purple"
+    },
+    "divine": {
+      "formatting": {
+        "color": "yellow",
+        "bold": true,
+        "obfuscated": false
+      },
+      "tooltip_color": "yellow",
+      "glint_override": true
+    }
+  }
+}
