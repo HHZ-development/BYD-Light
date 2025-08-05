@@ -30,18 +30,18 @@ ServerEvents.command(event => {
                 'matrix': 'kubejs:crystalline_precision_matrix'
             };
             if (itemMap[tier]) {
-                const itemName = tier === 'basic' ? '基础精密构件' :
-                               tier === 'improved' ? '改良精密构件' :
-                               tier === 'advanced' ? '高级精密构件' :
-                               tier === 'expert' ? '专家级精密构件' :
-                               tier === 'master' ? '大师级精密构件' :
-                               tier === 'legendary' ? '传奇精密构件' :
-                               tier === 'gear' ? '精密齿轮组件' :
-                               tier === 'shaft' ? '精密轴心核心' :
-                               tier === 'alloy' ? '精炼精密合金' :
-                               tier === 'matrix' ? '晶化精密基质' : tier;
+                const itemName = tier === 'basic' ? '§a基础精密构件' :
+                               tier === 'improved' ? '§b改良精密构件' :
+                               tier === 'advanced' ? '§d高级精密构件' :
+                               tier === 'expert' ? '§6专家级精密构件' :
+                               tier === 'master' ? '§c大师级精密构件' :
+                               tier === 'legendary' ? '§4§l传奇精密构件' :
+                               tier === 'gear' ? '§7精密齿轮组件' :
+                               tier === 'shaft' ? '§7精密轴心核心' :
+                               tier === 'alloy' ? '§7精炼精密合金' :
+                               tier === 'matrix' ? '§d§l晶化精密基质' : tier;
                 player.give(itemMap[tier]);
-                player.tell(`§6[精密构件系统] §a你获得了 ${itemName}`);
+                player.tell(`§6[精密构件系统] §a你获得了 ${itemName}！`);
             } else {
                 player.tell('§c[调试] §f未知的构件类型！');
                 player.tell('§7可用类型: basic, improved, advanced, expert, master, legendary, gear, shaft, alloy, matrix');

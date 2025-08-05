@@ -94,8 +94,16 @@ PlayerEvents.inventoryChanged(event => {
         if (!playerData.precisionProgress[item.id]) {
             playerData.precisionProgress[item.id] = true
             
-            // 发送进度消息
-            const itemName = item.displayName
+            // 发送进度消息 - 使用直接的中文名称（颜色代码与物品定义一致）
+            const itemNameMap = {
+                'kubejs:basic_precision_component': '§a基础精密构件',
+                'kubejs:improved_precision_component': '§b改良精密构件',
+                'kubejs:advanced_precision_component': '§d高级精密构件',
+                'kubejs:expert_precision_component': '§6专家级精密构件',
+                'kubejs:master_precision_component': '§c大师级精密构件',
+                'kubejs:legendary_precision_component': '§4§l传奇精密构件'
+            }
+            const itemName = itemNameMap[item.id] || '精密构件'
             player.tell(`§a[精密构件系统] §f你获得了 ${itemName}！`)
             
             // 检查是否解锁新阶段
@@ -121,10 +129,12 @@ function checkStageUnlock(player, itemId) {
         // 播放音效
         player.playSound('minecraft:entity.player.levelup', 1.0, 1.0)
         
-        // 发送全服消息（对于高阶构件） - 简化以避免JSON乱码
+        // 发送全服消息（对于高阶构件）
         if (itemId === 'kubejs:master_precision_component' || itemId === 'kubejs:legendary_precision_component') {
-            // 使用简单的广播消息代替复杂的tellraw
-            player.server.runCommandSilent(`say §6[服务器] §f玩家 ${player.name} 获得了传奇构件！`)
+            // 使用player.username获取纯字符串玩家名
+            const playerName = player.username || player.name.string
+            const itemDisplayName = itemId === 'kubejs:master_precision_component' ? '§c大师级精密构件' : '§4§l传奇精密构件'
+            player.server.runCommandSilent(`say §6[服务器] §f玩家 §b${playerName} §f获得了 ${itemDisplayName}§f！`)
         }
     }
 }
