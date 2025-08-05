@@ -15,56 +15,6 @@ ServerEvents.recipes(event => {
         MASTER: 'precision_master',
         LEGENDARY: 'precision_legendary'
     }
-    
-    // ============ 动态配方生成 ============
-    // 根据不同阶段生成不同的配方变体
-    
-    // 简化版配方（适用于新手服务器）
-    if (global.serverConfig && global.serverConfig.easyMode) {
-        // 简化的基础精密构件配方
-        event.shaped('kubejs:basic_precision_component', [
-            'ABA',
-            'BCB', 
-            'ABA'
-        ], {
-            A: 'minecraft:iron_ingot',
-            B: 'create:andesite_alloy',
-            C: 'create:cogwheel'
-        })
-    }
-    
-    // 困难版配方（适用于硬核服务器）
-    if (global.serverConfig && global.serverConfig.hardMode) {
-        // 移除所有简化配方，要求完整的工艺链
-        event.remove({ output: 'kubejs:basic_precision_component' })
-        
-        // 只能通过序列装配制作基础精密构件
-        event.recipes.create.sequenced_assembly([
-            'kubejs:basic_precision_component'
-        ], 'create:andesite_alloy', [
-            event.recipes.create.deploying('create:andesite_alloy', ['create:andesite_alloy', 'minecraft:iron_ingot']),
-            event.recipes.create.pressing('create:andesite_alloy', 'create:andesite_alloy'),
-            event.recipes.create.deploying('create:andesite_alloy', ['create:andesite_alloy', 'create:cogwheel']),
-            event.recipes.create.cutting('create:andesite_alloy', 'create:andesite_alloy')
-        ]).transitionalItem('create:andesite_alloy').loops(3)
-    }
-    
-    // ============ 条件配方系统 ============
-    // 基于玩家成就或物品解锁新配方
-    
-    // 当玩家获得钻石时解锁高级配方
-    event.shaped('kubejs:advanced_precision_component', [
-        'ABA',
-        'CDC',
-        'AEA'
-    ], {
-        A: 'kubejs:refined_precision_alloy',
-        B: 'create:rotation_speed_controller',
-        C: 'kubejs:improved_precision_component',
-        D: 'kubejs:precision_gear_assembly',
-        E: 'create:shadow_steel'
-    })
-    
 })
 
 // ============ 玩家进度跟踪 ============

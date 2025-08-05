@@ -12,12 +12,6 @@
 - **进度追踪**: 自动记录玩家制作进度
 - **阶段解锁**: 按顺序解锁新的制作配方
 
-### 📢 公告系统
-- **欢迎消息**: 玩家加入时显示系统介绍
-- **定期提示**: 自动发送制作提示和进度建议
-- **成就公告**: 完成阶段时的特殊庆祝消息
-- **个性化提示**: 根据玩家进度提供不同建议
-
 ### 🛠️ 调试工具
 - **进度管理**: 重置、查看、手动解锁进度
 - **物品给予**: 快速获取任意阶段的构件
@@ -61,11 +55,6 @@ kubejs/
 - `/precision reset` - 重置进度数据
 - `/precision give <类型>` - 给予指定构件
 - `/precision giveall` - 给予所有构件
-
-### 公告管理 (`/precision announcement`)
-- `/precision announcement test [类型]` - 测试公告消息
-- `/precision announcement enable <类型>` - 启用指定公告
-- `/precision announcement disable <类型>` - 禁用指定公告
 
 ## 配方要求
 

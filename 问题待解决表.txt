@@ -17,6 +17,7 @@ qmfc：新生魔艺生物自然生成数量过少，敌对生物会产出重要�
 削弱瓜聚变
 植物魔法泰拉凝聚板不可用 盖亚崩服 部分物品无贴图
 最好添加阶段限制
+添加禁忌与奥秘(Forbidden and Arcanus) 任意门(Tempad)
 
 闪电：
 建议添加AEInfinityBooster与AE2无线终端（已解决）
