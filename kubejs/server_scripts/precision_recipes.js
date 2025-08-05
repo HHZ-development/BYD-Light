@@ -4,26 +4,6 @@ ServerEvents.recipes(event => {
     // 移除原版精密构件配方（如果需要完全控制进程）
     event.remove({ output: 'create:precision_mechanism' })
 
-    // ============ 电路板配方 ============
-    // Mekanism、AE2、EnderIO、工业先锋综合材料
-    event.custom({
-        type: 'create:mechanical_crafting',
-        result: Item.of('kubejs:circuit_board').toJson(),
-        pattern: [
-            'ABA',
-            'CDC',
-            'AEA'
-        ],
-        key: {
-            'A': { item: 'mekanism:hdpe_sheet' },
-            'B': { item: 'ae2:printed_silicon' },
-            'C': { item: 'enderio:electrical_steel_ingot' },
-            'D': { item: 'industrialforegoing:plastic' },
-            'E': { item: 'ae2:logic_processor' }
-        },
-        acceptMirrored: false
-    }).id('kubejs:circuit_board')
-
     // ============ 六种循序渐进科幻电路板配方 ============
     // 基础电路板 Basic Circuit
     event.custom({
