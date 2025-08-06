@@ -152,11 +152,6 @@ StartupEvents.registry('item', event => {
         .tooltip('§8序列装配配方示例')
         .rarity('uncommon')
         .texture('kubejs:item/reinforced_brass_ingot')
-    
-    event.create('incomplete_reinforced_brass')
-        .displayName('未完成的强化黄铜')
-        .tooltip('§7序列装配过程中的中间产物')
-        .texture('kubejs:item/incomplete_reinforced_brass')
 
     // ============ 高级精密机械装置及其中间物品 ============
     event.create('advanced_precision_mechanism')
@@ -166,11 +161,6 @@ StartupEvents.registry('item', event => {
         .tooltip('§8在序列装配台中制作')
         .rarity('rare')
         .texture('kubejs:item/advanced_precision_mechanism')
-    
-    event.create('incomplete_advanced_precision_mechanism')
-        .displayName('未完成的高级精密机械装置')
-        .tooltip('§7序列装配过程中的中间产物')
-        .texture('kubejs:item/incomplete_advanced_precision_mechanism')
 
     // ============ 精密处理单元及其相关物品 ============
     event.create('precision_processing_unit')
