@@ -123,6 +123,23 @@ StartupEvents.registry('item', event => {
         .glow(true)
         .texture('kubejs:item/cosmic_circuit')
     
+    // ============ 序列合成中间物品 ============
+    event.create('incomplete_crystalline_precision_matrix')
+        .displayName('未完成的晶化精密基质')
+        .texture('kubejs:item/incomplete_crystalline_precision_matrix')
+    
+    event.create('incomplete_precision_gear')
+        .displayName('未完成的精密齿轮组件')
+        .texture('kubejs:item/incomplete_precision_gear')
+    
+    event.create('incomplete_precision_shaft')
+        .displayName('未完成的精密轴心核心')
+        .texture('kubejs:item/incomplete_precision_shaft')
+    
+    event.create('incomplete_crystal_matrix')
+        .displayName('未完成的晶体基质')
+        .texture('kubejs:item/incomplete_crystal_matrix')
+
 })
 
 console.log('[精密构件物品系统] 完全中文嵌入版本已加载完成')
