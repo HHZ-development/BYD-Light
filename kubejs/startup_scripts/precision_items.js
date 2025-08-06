@@ -57,6 +57,14 @@ StartupEvents.registry('item', event => {
         .texture('kubejs:item/legendary_precision_component')
     
     // 精密工具组件
+    event.create('precision_gear')
+        .displayName('§7精密齿轮')
+        .tooltip('§7高精度的齿轮')
+        .tooltip('§7通过序列装配制作')
+        .tooltip('§8需要黄铜板和精密机械')
+        .rarity('uncommon')
+        .texture('kubejs:item/precision_gear')
+    
     event.create('precision_gear_assembly')
         .displayName('§7精密齿轮组件')
         .tooltip('§7高精度齿轮组合')
@@ -128,10 +136,6 @@ StartupEvents.registry('item', event => {
         .displayName('未完成的晶化精密基质')
         .texture('kubejs:item/incomplete_crystalline_precision_matrix')
     
-    event.create('incomplete_precision_gear')
-        .displayName('未完成的精密齿轮组件')
-        .texture('kubejs:item/incomplete_precision_gear')
-    
     event.create('incomplete_precision_shaft')
         .displayName('未完成的精密轴心核心')
         .texture('kubejs:item/incomplete_precision_shaft')
@@ -140,6 +144,85 @@ StartupEvents.registry('item', event => {
         .displayName('未完成的晶体基质')
         .texture('kubejs:item/incomplete_crystal_matrix')
 
+    // ============ 序列装配示例物品 ============
+    event.create('reinforced_brass_ingot')
+        .displayName('§6强化黄铜锭')
+        .tooltip('§7通过序列装配制作的强化黄铜')
+        .tooltip('§7比普通黄铜更加坚固')
+        .tooltip('§8序列装配配方示例')
+        .rarity('uncommon')
+        .texture('kubejs:item/reinforced_brass_ingot')
+    
+    event.create('incomplete_reinforced_brass')
+        .displayName('未完成的强化黄铜')
+        .tooltip('§7序列装配过程中的中间产物')
+        .texture('kubejs:item/incomplete_reinforced_brass')
+
+    // ============ 高级精密机械装置及其中间物品 ============
+    event.create('advanced_precision_mechanism')
+        .displayName('§d高级精密机械装置')
+        .tooltip('§7通过序列装配制作的高级机械装置')
+        .tooltip('§7比普通精密机械装置更加精确')
+        .tooltip('§8在序列装配台中制作')
+        .rarity('rare')
+        .texture('kubejs:item/advanced_precision_mechanism')
+    
+    event.create('incomplete_advanced_precision_mechanism')
+        .displayName('未完成的高级精密机械装置')
+        .tooltip('§7序列装配过程中的中间产物')
+        .texture('kubejs:item/incomplete_advanced_precision_mechanism')
+
+    // ============ 精密处理单元及其相关物品 ============
+    event.create('precision_processing_unit')
+        .displayName('§6精密处理单元')
+        .tooltip('§7高精度的处理单元')
+        .tooltip('§7能够执行复杂的精密操作')
+        .tooltip('§8通过序列装配制作')
+        .rarity('epic')
+        .texture('kubejs:item/precision_processing_unit')
+    
+    event.create('incomplete_precision_processing_unit')
+        .displayName('未完成的精密处理单元')
+        .tooltip('§7序列装配过程中的中间产物')
+        .texture('kubejs:item/incomplete_precision_processing_unit')
+    
+    event.create('damaged_precision_component')
+        .displayName('§c损坏的精密构件')
+        .tooltip('§7制作失败的副产品')
+        .tooltip('§7可以回收部分材料')
+        .rarity('common')
+        .texture('kubejs:item/damaged_precision_component')
+
+    // ============ 序列装配半成品物品 ============
+    // 强化黄铜锭制作过程的半成品
+    event.create('incomplete_reinforced_brass')
+        .displayName('未完成的强化黄铜锭')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .texture('kubejs:item/incomplete_reinforced_brass')
+    
+    // 精密齿轮制作过程的半成品
+    event.create('incomplete_precision_gear')
+        .displayName('未完成的精密齿轮')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .texture('kubejs:item/incomplete_precision_gear')
+    
+    // 高级精密机械制作过程的半成品
+    event.create('incomplete_advanced_precision_mechanism')
+        .displayName('未完成的高级精密机械')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .texture('kubejs:item/incomplete_advanced_precision_mechanism')
+
 })
 
-console.log('[精密构件物品系统] 完全中文嵌入版本已加载完成')
+// 验证物品注册完成
+console.log('[精密构件物品系统] 物品注册验证：')
+console.log('- 基础精密构件系列：basic_precision_component, improved_precision_component')
+console.log('- 电路板系列：basic_circuit, advanced_circuit')
+console.log('- 合金材料：refined_precision_alloy')
+console.log('- 精密装置：precision_gear_assembly, advanced_precision_mechanism')
+console.log('- 序列装配成品：reinforced_brass_ingot, precision_gear')
+console.log('- 序列装配半成品：incomplete_reinforced_brass, incomplete_precision_gear, incomplete_advanced_precision_mechanism')
+console.log('[精密构件物品系统] 完全中文嵌入版本已加载完成，包含序列装配支持')
