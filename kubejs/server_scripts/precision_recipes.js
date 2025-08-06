@@ -69,7 +69,7 @@ ServerEvents.recipes(event => {
         R: 'minecraft:redstone',
         I: 'minecraft:iron_ingot'
     })
-    // 高级电路板：基础电路板+金锭+红石
+    // 改良电路板：基础电路板+金锭+红石
     event.shaped('kubejs:advanced_circuit', [
         'BBB',
         'GRG',
@@ -79,7 +79,7 @@ ServerEvents.recipes(event => {
         G: 'minecraft:gold_ingot',
         R: 'minecraft:redstone'
     })
-    // 原子电路板：高级电路板+钻石+高级精密构件
+    // 高级电路板：改良电路板+钻石+高级精密构件
     event.shaped('kubejs:atomic_circuit', [
         'AAA',
         'DED',
@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
         D: 'minecraft:diamond',
         E: 'kubejs:advanced_precision_component'
     })
-    // 量子电路板：原子电路板+高级精密构件+末影珍珠
+    // 专家电路板：高级电路板+高级精密构件+末影珍珠
     event.shaped('kubejs:quantum_circuit', [
         'QQQ',
         'AEA',
@@ -99,7 +99,7 @@ ServerEvents.recipes(event => {
         A: 'kubejs:advanced_precision_component',
         E: 'minecraft:ender_pearl'
     })
-    // 超能电路板：量子电路板+晶化精密基质+下界之星
+    // 大师电路板：专家电路板+晶化精密基质+下界之星
     event.shaped('kubejs:hyper_circuit', [
         'HHH',
         'QMQ',
@@ -109,7 +109,7 @@ ServerEvents.recipes(event => {
         Q: 'kubejs:crystalline_precision_matrix',
         M: 'minecraft:nether_star'
     })
-    // 宇宙电路板：超能电路板+传奇精密构件+龙息
+    // 传奇电路板：大师电路板+传奇精密构件+龙息
     event.shaped('kubejs:cosmic_circuit', [
         'CCC',
         'HGH',
