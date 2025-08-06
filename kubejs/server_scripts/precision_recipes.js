@@ -152,11 +152,11 @@ ServerEvents.recipes(event => {
         loops: 2,
         results: [
             {
-                chance: 90.0,
+                chance: 95.0,
                 id: "kubejs:reinforced_brass_ingot"
             },
             {
-                chance: 10.0,
+                chance: 5.0,
                 id: "create:brass_ingot"
             }
         ],
