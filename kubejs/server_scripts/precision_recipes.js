@@ -4,6 +4,7 @@
 ServerEvents.recipes(event => {
     event.remove({output:'create:precision_mechanism'}) // 移除旧的精密机制配方
     event.remove({type:'create:mechanical_crafting'}) // 移除旧的机械合成配方
+    event.remove({output:'enderio:z_logic_controller'}) // 移除旧的逻辑控制器配方
     event.custom({
         type: 'create:mixing',
         ingredients: [
@@ -20,6 +21,23 @@ ServerEvents.recipes(event => {
             }
         ]
     }).id('kubejs:mixing/steel_dust')
+    //测试头颅装配机配方
+    /*event.custom({
+        type: "enderio:slicing",
+        energy: 10000,
+        inputs: [
+    {tag: "c:ingots/soularium"},
+    {item: "minecraft:zombie_head"},
+    {tag: "c:ingots/soularium"},
+    {tag: "c:silicon"},
+    {item: "kubejs:"},
+    {tag: "c:silicon"}
+  ],
+  output: {
+    count: 1,
+    id: "enderio:z_logic_controller"
+  }
+    }).id('kubejs:enderio/slicing/z_logic_controller');*/
 
     event.shaped('kubejs:basic_circuit', [
             'ADA',
@@ -82,27 +100,6 @@ ServerEvents.recipes(event => {
     Ingredient.of('kubejs:basic_precision_component') 
     )
 
-    // ============ 精炼精密合金配方 ============
-    // 精炼精密合金 (Refined Precision Alloy) - 使用基础材料
-    event.custom({
-        type: 'create:mechanical_crafting',
-        pattern: [
-            'AB',
-            'CD'
-        ],
-        key: {
-            A: { item: 'minecraft:iron_ingot' },
-            B: { item: 'create:zinc_ingot' },
-            C: { item: 'minecraft:copper_ingot' },
-            D: { item: 'mekanism:alloy_infused' }
-        },
-        result: {
-            id: 'kubejs:refined_precision_alloy',
-            count: 2
-        },
-        accept_mirrored: false
-    }).id('kubejs:mechanical_crafting/refined_precision_alloy')
-
     // ============ 基础精密构件配方 ============
     // 阶段1：基础精密构件 (Basic Precision Component)
     event.custom({
@@ -145,29 +142,6 @@ ServerEvents.recipes(event => {
         },
         accept_mirrored: false
     }).id('kubejs:mechanical_crafting/improved_precision_component')
-
-    // ============ 精密齿轮组配方 ============
-    event.custom({
-        type: 'create:mechanical_crafting',
-        pattern: [
-            'ABA',
-            'CDC',
-            'ABA'
-        ],
-        key: {
-            A: { item: 'create:brass_ingot' },
-            B: { item: 'kubejs:improved_precision_component' },
-            C: { item: 'create:cogwheel' },
-            D: { item: 'create:large_cogwheel' }
-        },
-        result: {
-            id: 'kubejs:precision_gear_assembly'
-        },
-        accept_mirrored: false
-    }).id('kubejs:mechanical_crafting/precision_gear_assembly')
-
-    console.log('[精密构件配方系统] 修复版本已加载完成')
-
     // ============ 序列装配配方示例 ============
     // 使用与整合包相同的序列装配语法：强化黄铜锭
     event.custom({
@@ -221,132 +195,35 @@ ServerEvents.recipes(event => {
             id: "kubejs:incomplete_reinforced_brass"
         }
     }).id("kubejs:create/sequenced_assembly/reinforced_brass_ingot")
-
-    // 精密齿轮制作
+    // 粉碎轮配方扔回去
     event.custom({
-        type: "create:sequenced_assembly",
-        ingredient: {
-            item: "create:brass_sheet"
-        },
-        loops: 1,
-        results: [
-            {
-                chance: 95.0,
-                id: "kubejs:precision_gear"
-            },
-            {
-                chance: 5.0,
-                id: "create:brass_sheet"
-            }
-        ],
-        sequence: [
-            {
-                type: "create:cutting",
-                ingredients: [
-                    {
-                        item: "kubejs:incomplete_precision_gear"
-                    }
-                ],
-                results: [
-                    {
-                        id: "kubejs:incomplete_precision_gear"
-                    }
-                ]
-            },
-            {
-                type: "create:deploying",
-                ingredients: [
-                    {
-                        item: "kubejs:incomplete_precision_gear"
-                    },
-                    {
-                        item: "kubejs:basic_precision_component"
-                    }
-                ],
-                results: [
-                    {
-                        id: "kubejs:incomplete_precision_gear"
-                    }
-                ]
-            }
-        ],
-        transitional_item: {
-            id: "kubejs:incomplete_precision_gear"
-        }
-    }).id("kubejs:create/sequenced_assembly/precision_gear")
-
-    // 高级精密机械制作
-    event.custom({
-        type: "create:sequenced_assembly",
-        ingredient: {
-            item: "kubejs:precision_gear_assembly"
-        },
-        loops: 2,
-        results: [
-            {
-                chance: 90.0,
-                id: "kubejs:advanced_precision_mechanism"
-            },
-            {
-                chance: 10.0,
-                id: "kubejs:precision_gear_assembly"
-            }
-        ],
-        sequence: [
-            {
-                type: "create:filling",
-                ingredients: [
-                    {
-                        item: "kubejs:incomplete_advanced_precision_mechanism"
-                    },
-                    {
-                        type: "fluid_stack",
-                        amount: 500,
-                        fluid: "minecraft:lava"
-                    }
-                ],
-                results: [
-                    {
-                        id: "kubejs:incomplete_advanced_precision_mechanism"
-                    }
-                ]
-            },
-            {
-                type: "create:deploying",
-                ingredients: [
-                    {
-                        item: "kubejs:incomplete_advanced_precision_mechanism"
-                    },
-                    {
-                        item: "kubejs:basic_precision_component"
-                    }
-                ],
-                results: [
-                    {
-                        id: "kubejs:incomplete_advanced_precision_mechanism"
-                    }
-                ]
-            },
-            {
-                type: "create:pressing",
-                ingredients: [
-                    {
-                        item: "kubejs:incomplete_advanced_precision_mechanism"
-                    }
-                ],
-                results: [
-                    {
-                        id: "kubejs:incomplete_advanced_precision_mechanism"
-                    }
-                ]
-            }
-        ],
-        transitional_item: {
-            id: "kubejs:incomplete_advanced_precision_mechanism"
-        }
-    }).id("kubejs:create/sequenced_assembly/advanced_precision_mechanism")
-    
-    // 添加一个简单的工作台配方用于测试
+        type: "create:mechanical_crafting",
+        accept_mirrored: false,
+        category: "misc",
+        key: {
+            A: {
+                item: "create:andesite_alloy"
+    },
+    P: {
+        tag: "minecraft:planks"
+    },
+    S: {
+      tag: "c:stones"
+    }
+  },
+  pattern: [
+    " AAA ",
+    "AAPAA",
+    "APSPA",
+    "AAPAA",
+    " AAA "
+  ],
+  result: {
+    count: 2,
+    id: "create:crushing_wheel"
+  },
+  show_notification: false
+    }).id('kubejs:mechanical_crafting/crushing_wheel')
     
     // 验证所有配方加载
     console.log('[精密构件配方系统] 配方验证：')

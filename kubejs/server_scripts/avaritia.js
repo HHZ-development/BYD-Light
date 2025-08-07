@@ -101,23 +101,5 @@ ServerEvents.recipes(event => {
         }
     }).id('kubejs:ultimate_energy_core');
     
-    // ========== Create 搅拌机配方 ==========
-    
-    // 铁煤合成钢锭 - 替代Mekanism制作方法
-    event.custom({
-        type: 'create:mixing',
-        heat_requirement: 'heated',
-        ingredients: [
-            { item: 'minecraft:iron_ingot' },
-            { item: 'minecraft:coal' }
-        ],
-        results: [
-            {
-                count: 1,
-                item: { id: 'mekanism:ingot_steel' }
-            }
-        ]
-    }).id('kubejs:steel_mixing');
-    
     console.log('[模组配方] ✅ 加载完成 - 4个配方已注册');
 });
