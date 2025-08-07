@@ -14,14 +14,8 @@
         "skipLibCheck": true
     },
     "include": [
-        "**/*.js",
-        "**/*.ts",
         "./**/*.js",
         "./**/*.ts",
         null
-    ],
-    "exclude": [
-        "node_modules/**",
-        "**/*.disabled"
     ]
 }

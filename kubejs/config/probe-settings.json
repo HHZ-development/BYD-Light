@@ -1,5 +1,7 @@
 {
     "probejs.classScanning": false,
-    "probejs.modHash": -4286951529474836395,
-    "probejs.registryHash": 3287712836254660724
+    "probejs.modHash": -2,
+    "probejs.registryHash": 3287712836254660724,
+    "probejs.complete": true,
+    "probejs.enableDecompiler": false
 }
