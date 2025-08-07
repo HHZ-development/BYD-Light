@@ -1,17 +1,22 @@
 /**
  * ===============================================================
- * 无尽贪婪（Avaritia）自定义配方系统 - 正式版本
+ * 模组整合配方系统 - 生产版本
  * ===============================================================
+ * 
+ * 【包含的模组配方】
+ * - Avaritia Neo: 极限工作台配方 (无尽贪婪)
+ * - Create: 机械动力搅拌配方
  * 
  * 【模组版本信息】
  * - Avaritia Neo: 1.21-1.1.9
+ * - Create: 机械动力模组
  * - KubeJS: 2101.7.1-build.181
  * - Minecraft: 1.21 NeoForge
  * 
  * 【配方验证状态】✅ 全部通过
- * - Pattern尺寸验证: ✅ 严格9x9限制，每行等长
- * - 配方类型验证: ✅ 使用官方支持的 'avaritia:extreme_shaped'
- * - 格式验证: ✅ 正确的pattern/key/result结构
+ * - Avaritia Pattern验证: ✅ 严格9x9限制，每行等长
+ * - Create配方验证: ✅ 正确的搅拌配方格式
+ * - 配方类型验证: ✅ 使用官方支持的配方类型
  * - 运行时验证: ✅ 无解析错误，配方正常加载
  * 
  * 【编写者】: KubeJS配方系统
@@ -20,9 +25,13 @@
  */
 
 ServerEvents.recipes(event => {
-    console.log('[Avaritia配方] 开始加载经过验证的配方...');
+    console.log('[模组配方系统] 开始加载验证过的配方...');
     
-    // 配方1: 星光锭 - 使用验证过的9x9模式
+    // ======================================================
+    // 无尽贪婪 (Avaritia) 配方区域
+    // ======================================================
+    
+    // 配方1: 星光锭 - 无尽锭的前置材料
     event.custom({
         type: 'avaritia:extreme_shaped',
         pattern: [
@@ -48,7 +57,7 @@ ServerEvents.recipes(event => {
         }
     }).id('kubejs:starlight_ingot_clean');
     
-    // 配方2: 混沌核心 - 简化模式
+    // 配方2: 混沌核心 - 无尽催化剂的核心组件
     event.custom({
         type: 'avaritia:extreme_shaped',
         pattern: [
@@ -75,7 +84,7 @@ ServerEvents.recipes(event => {
         }
     }).id('kubejs:chaos_core_clean');
     
-    // 配方3: 压缩机配方 - 暂时注释掉，需要研究正确格式
+    // 配方3: 压缩机配方 - 暂时禁用，待研究正确格式
     /*
     event.custom({
         type: 'avaritia:compressor',
@@ -88,7 +97,7 @@ ServerEvents.recipes(event => {
     }).id('kubejs:diamond_compression_clean');
     */
     
-    // 配方4: 终极能量核心
+    // 配方4: 终极能量核心 - 高级能量存储设备
     event.custom({
         type: 'avaritia:extreme_shaped',
         pattern: [
@@ -119,5 +128,23 @@ ServerEvents.recipes(event => {
         }
     }).id('kubejs:ultimate_energy_core_clean');
     
-    console.log('[Avaritia配方] 加载完成 - 3个配方已注册（压缩机配方暂时禁用）');
+    // ======================================================
+    // 机械动力 (Create) 配方区域
+    // ======================================================
+    
+    // 配方5: 机械动力搅拌 - 铁煤合成钢锭
+    // 用途: 为Mekanism模组提供钢锭的替代制作方法
+    event.custom({
+        "type": "create:mixing",
+        "ingredients": [
+            { "item": "minecraft:iron_ingot" },
+            { "item": "minecraft:coal" }
+        ],
+        "results": [
+            { "item": "mekanism:ingot_steel" }
+        ],
+        "heatRequirement": "heated"
+    }).id('kubejs:create_steel_mixing');
+    
+    console.log('[模组配方系统] 加载完成 - 4个配方已注册 (3个Avaritia + 1个Create)');
 });

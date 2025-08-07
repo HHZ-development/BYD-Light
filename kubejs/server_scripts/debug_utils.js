@@ -30,7 +30,7 @@ ServerEvents.command(event => {
                 'matrix': 'kubejs:crystalline_precision_matrix'
             };
             if (itemMap[tier]) {
-                const itemName = tier === 'basic' ? '§a基础精密构件' :
+                const debugItemName = tier === 'basic' ? '§a基础精密构件' :
                                tier === 'improved' ? '§b改良精密构件' :
                                tier === 'advanced' ? '§d高级精密构件' :
                                tier === 'expert' ? '§6专家级精密构件' :
@@ -41,7 +41,7 @@ ServerEvents.command(event => {
                                tier === 'alloy' ? '§7精炼精密合金' :
                                tier === 'matrix' ? '§d§l晶化精密基质' : tier;
                 player.give(itemMap[tier]);
-                player.tell(`§6[精密构件系统] §a你获得了 ${itemName}！`);
+                player.tell(`§6[精密构件系统] §a你获得了 ${debugItemName}！`);
             } else {
                 player.tell('§c[调试] §f未知的构件类型！');
                 player.tell('§7可用类型: basic, improved, advanced, expert, master, legendary, gear, shaft, alloy, matrix');
@@ -57,11 +57,22 @@ ServerEvents.command(event => {
     switch (command) {
         case 'precision reset':
             {
-                const playerData = player.persistentData;
-                if (playerData.precisionProgress) {
-                    playerData.remove('precisionProgress');
-                    player.tell('§a[调试] §f精密构件进度已重置！');
-                    player.tell('§7你现在可以重新体验整个进度系统。');
+                const debugPlayerData = player.persistentData;
+                let hasData = false;
+                
+                if (debugPlayerData.precisionProgress) {
+                    debugPlayerData.remove('precisionProgress');
+                    hasData = true;
+                }
+                
+                if (debugPlayerData.unlockedStages) {
+                    debugPlayerData.remove('unlockedStages');
+                    hasData = true;
+                }
+                
+                if (hasData) {
+                    player.tell('§a[调试] §f精密构件进度和阶段解锁状态已重置！');
+                    player.tell('§7你现在可以重新体验整个进度系统和解锁消息。');
                 } else {
                     player.tell('§c[调试] §f你没有需要重置的进度数据。');
                 }
@@ -73,6 +84,8 @@ ServerEvents.command(event => {
             {
                 const statusData = player.persistentData;
                 player.tell('§6=== 精密构件进度状态 ===');
+                
+                // 检查物品获得进度
                 if (statusData.precisionProgress) {
                     const progress = statusData.precisionProgress;
                     const unlocked = [];
@@ -83,7 +96,26 @@ ServerEvents.command(event => {
                     if (progress['kubejs:master_precision_component']) unlocked.push('§c大师');
                     if (progress['kubejs:legendary_precision_component']) unlocked.push('§4§l传奇');
                     if (unlocked.length > 0) {
-                        player.tell('§f已解锁阶段: ' + unlocked.join('§f, '));
+                        player.tell('§f已获得构件: ' + unlocked.join('§f, '));
+                    } else {
+                        player.tell('§7还没有获得任何精密构件。');
+                    }
+                } else {
+                    player.tell('§7还没有获得任何精密构件。');
+                }
+                
+                // 检查阶段解锁状态
+                if (statusData.unlockedStages) {
+                    const stages = statusData.unlockedStages;
+                    const unlockedStages = [];
+                    if (stages['kubejs:basic_precision_component']) unlockedStages.push('§a基础阶段');
+                    if (stages['kubejs:improved_precision_component']) unlockedStages.push('§b改良阶段');
+                    if (stages['kubejs:advanced_precision_component']) unlockedStages.push('§d高级阶段');
+                    if (stages['kubejs:expert_precision_component']) unlockedStages.push('§6专家阶段');
+                    if (stages['kubejs:master_precision_component']) unlockedStages.push('§c大师阶段');
+                    if (stages['kubejs:legendary_precision_component']) unlockedStages.push('§4§l传奇阶段');
+                    if (unlockedStages.length > 0) {
+                        player.tell('§f已解锁阶段: ' + unlockedStages.join('§f, '));
                     } else {
                         player.tell('§7还没有解锁任何阶段。');
                     }
