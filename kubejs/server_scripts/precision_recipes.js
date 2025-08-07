@@ -1,64 +1,9 @@
-/**
- * ============================================================================
- * Create精密构件渐进式合成配方系统 - 机械动力增强版
- * ============================================================================
- * 
- * 文件功能：为Create模组添加自定义的精密构件制作配方
- * 版本：KubeJS 2101.7.1-build.181 + Create 0.5.1
- * 更新：修复版本，使用正确的KubeJS Create集成语法
- * 
- * 设计理念：
- * - 渐进式科技树：从基础电路到高级精密构件
- * - 多步骤制作：使用机械合成台进行复杂组装
- * - 平衡考虑：确保制作成本与物品价值匹配
- * - 模组兼容：与Create生态系统无缝集成
- * 
- * 配方类型说明：
- * - create:mechanical_crafting: 机械合成台配方（支持大型合成网格）
- * - minecraft:crafting_shaped: 标准工作台有形配方
- * - create:mixing: 搅拌机配方（流体+固体混合）
- * - create:crushing: 粉碎轮配方（固体处理）
- * 
- * 技术要点：
- * - 使用 event.custom() 调用Create专用配方类型
- * - pattern数组定义合成网格布局
- * - key对象映射字符到具体物品
- * - accept_mirrored: false 确保配方不可镜像
- * 
- * 常见错误预防：
- * - 避免使用不存在的物品ID
- * - 确保配方ID唯一性
- * - 注意大小写敏感的物品命名
- * - 检查模组依赖是否正确加载
- * ============================================================================
- */
-
 // Create精密构件渐进式合成配方 - 修复版本
 // 这是一个使用正确KubeJS Create语法的版本
 
 ServerEvents.recipes(event => {
     event.remove({output:'create:precision_mechanism'}) // 移除旧的精密机制配方
-    // ============ 基础电路板配方 ============
-    // 基础电路板 (Basic Circuit) - 使用最基础确认存在的物品
-    event.custom({
-        type: 'create:mechanical_crafting',
-        pattern: [
-            'ADA',
-            'CBC',
-            'ADA'
-        ],
-        key: {
-            A: { item: 'mekanism:ingot_steel' },
-            B: { item: 'minecraft:redstone' },
-            C: { item: 'createaddition:copper_wire' },
-            D: { item: 'create:iron_sheet' }
-        },
-        result: {
-            id: 'kubejs:basic_circuit'
-        },
-        accept_mirrored: false
-    }).id('kubejs:mechanical_crafting/basic_circuit')
-
+    event.remove({type:'create:mechanical_crafting'}) // 移除旧的机械合成配方
     event.custom({
         type: 'create:mixing',
         ingredients: [
@@ -106,11 +51,11 @@ ServerEvents.recipes(event => {
             'AEA'
         ],
         key: {
-            A: { item: 'create:brass_ingot' },
-            B: { item: 'createaddition:copper_wire' },
+            A: { item: 'mekanism:alloy_infused' },
+            B: { item: 'immersiveengineering:wire_steel' },
             C: { item: 'minecraft:copper_ingot' },
-            D: { item: 'minecraft:emerald' },
-            E: { item: 'create:zinc_ingot' }
+            D: { item: 'kubejs:basic_circuit' },
+            E: { item: 'minecraft:diamond' }
         },
         result: {
             id: 'kubejs:advanced_circuit'
@@ -315,7 +260,7 @@ ServerEvents.recipes(event => {
                         item: "kubejs:incomplete_precision_gear"
                     },
                     {
-                        item: "create:precision_mechanism"
+                        item: "kubejs:basic_precision_component"
                     }
                 ],
                 results: [
@@ -349,13 +294,31 @@ ServerEvents.recipes(event => {
         ],
         sequence: [
             {
+                type: "create:filling",
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_advanced_precision_mechanism"
+                    },
+                    {
+                        type: "fluid_stack",
+                        amount: 500,
+                        fluid: "minecraft:lava"
+                    }
+                ],
+                results: [
+                    {
+                        id: "kubejs:incomplete_advanced_precision_mechanism"
+                    }
+                ]
+            },
+            {
                 type: "create:deploying",
                 ingredients: [
                     {
                         item: "kubejs:incomplete_advanced_precision_mechanism"
                     },
                     {
-                        item: "create:precision_mechanism"
+                        item: "kubejs:basic_precision_component"
                     }
                 ],
                 results: [
