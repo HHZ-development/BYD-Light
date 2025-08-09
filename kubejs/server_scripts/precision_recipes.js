@@ -99,39 +99,38 @@ ServerEvents.recipes(event => {
         accept_mirrored: false  // 不允许镜像，确保电路连接正确
     }).id('kubejs:mechanical_crafting/basic_circuit')
 
-    /**
-     * 【精密合金制作】
-     * 为制作高级精密构件提供特殊合金材料
-     * 这是从基础材料向精密构件过渡的关键步骤
-     */
-    /**
-     * 精炼精密合金制作配方：
-     * - 用途：制作高级精密构件的核心合金材料
-     * - 材料选择：Create模组的各种基础合金组合
-     * - 合成方式：紧凑的2x2机械合成
-     * 
-     * 合金成分分析：
-     * - 黄铜锭：提供强度和耐腐蚀性
-     * - 锌锭：增强合金的延展性和加工性能
-     * - 铜锭：提供优秀的导电和导热性能
-     * - 安山合金：Create的基础合金，提供稳定性
-     * 
-     * 性能特点：
-     * - 结合了多种金属的优点
-     * - 适合制作精密机械部件
-     * - 成本适中，适合批量生产
-     */
+    event.replaceInput({
+        input:'create:precision_mechanism'
+    }, 
+    'create:precision_mechanism', 
+    Ingredient.of('kubejs:basic_precision_component') 
+    )
+    event.replaceInput({
+        output:'mekanism:metallurgic_infuser'
+    }, 
+    'mekanism:ingot_osmium', 
+    Ingredient.of('kubejs:basic_precision_component') 
+    )
+    event.replaceInput({
+        output:'mekanism:steel_casing'
+    }, 
+    'mekanism:ingot_osmium', 
+    Ingredient.of('kubejs:basic_precision_component') 
+    )
+
+    // ============ 精炼精密合金配方 ============
+    // 精炼精密合金 (Refined Precision Alloy) - 使用基础材料
     event.custom({
-        type: 'create:mechanical_crafting',  // 机械合成台配方
+        type: 'create:mechanical_crafting',
         pattern: [
-            'AB',    // 黄铜锭-锌锭（强度与延展性结合）
-            'CD'     // 铜锭-安山合金（导电性与稳定性结合）
+            'AB',
+            'CD'
         ],
         key: {
-            A: { item: 'create:brass_ingot' },     // 黄铜锭（强度基础）
-            B: { item: 'create:zinc_ingot' },      // 锌锭（延展性）
-            C: { item: 'minecraft:copper_ingot' }, // 铜锭（导电性）
-            D: { item: 'create:andesite_alloy' }   // 安山合金（稳定性）
+            A: { item: 'minecraft:iron_ingot' },
+            B: { item: 'create:zinc_ingot' },
+            C: { item: 'minecraft:copper_ingot' },
+            D: { item: 'mekanism:alloy_infused' }
         },
         result: {
             id: 'kubejs:refined_precision_alloy',
@@ -203,29 +202,6 @@ ServerEvents.recipes(event => {
         },
         accept_mirrored: false
     }).id('kubejs:mechanical_crafting/improved_precision_component')
-
-    // ============ 精密齿轮组配方 ============
-    event.custom({
-        type: 'create:mechanical_crafting',
-        pattern: [
-            'ABA',
-            'CDC',
-            'ABA'
-        ],
-        key: {
-            A: { item: 'create:brass_ingot' },
-            B: { item: 'kubejs:improved_precision_component' },
-            C: { item: 'create:cogwheel' },
-            D: { item: 'create:large_cogwheel' }
-        },
-        result: {
-            id: 'kubejs:precision_gear_assembly'
-        },
-        accept_mirrored: false
-    }).id('kubejs:mechanical_crafting/precision_gear_assembly')
-
-    console.log('[精密构件配方系统] 修复版本已加载完成')
-
     // ============ 序列装配配方示例 ============
     // 使用与整合包相同的序列装配语法：强化黄铜锭
     event.custom({
@@ -279,8 +255,7 @@ ServerEvents.recipes(event => {
             id: "kubejs:incomplete_reinforced_brass"
         }
     }).id("kubejs:create/sequenced_assembly/reinforced_brass_ingot")
-
-    // 精密齿轮制作
+    // 粉碎轮配方扔回去
     event.custom({
         type: "create:sequenced_assembly",
         ingredient: {
@@ -318,7 +293,7 @@ ServerEvents.recipes(event => {
                         item: "kubejs:incomplete_precision_gear"
                     },
                     {
-                        item: "create:precision_mechanism"
+                        item: "kubejs:basic_precision_component"
                     }
                 ],
                 results: [
@@ -352,13 +327,31 @@ ServerEvents.recipes(event => {
         ],
         sequence: [
             {
+                type: "create:filling",
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_advanced_precision_mechanism"
+                    },
+                    {
+                        type: "fluid_stack",
+                        amount: 500,
+                        fluid: "minecraft:lava"
+                    }
+                ],
+                results: [
+                    {
+                        id: "kubejs:incomplete_advanced_precision_mechanism"
+                    }
+                ]
+            },
+            {
                 type: "create:deploying",
                 ingredients: [
                     {
                         item: "kubejs:incomplete_advanced_precision_mechanism"
                     },
                     {
-                        item: "create:precision_mechanism"
+                        item: "kubejs:basic_precision_component"
                     }
                 ],
                 results: [
@@ -387,14 +380,6 @@ ServerEvents.recipes(event => {
     }).id("kubejs:create/sequenced_assembly/advanced_precision_mechanism")
     
     // 添加一个简单的工作台配方用于测试
-    event.shaped('kubejs:reinforced_brass_ingot', [
-        'ABA',
-        'BAB',
-        'ABA'
-    ], {
-        A: 'create:brass_ingot',
-        B: 'minecraft:iron_ingot'
-    }).id('kubejs:test/manual_reinforced_brass_simple')
     
     // 验证所有配方加载
     console.log('[精密构件配方系统] 配方验证：')
