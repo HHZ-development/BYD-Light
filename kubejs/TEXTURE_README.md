@@ -8,8 +8,8 @@ kubejs/assets/kubejs/textures/item/
 
 ## 需要的材质文件：
 1. `basic_precision_component.png` - 基础精密构件
-2. `improved_precision_component.png` - 改良精密构件  
-3. `advanced_precision_component.png` - 高级精密构件
+2. `improved_precision_component.png` - 改良精密构件√
+3. `advanced_precision_component.png` - 高级精密构件√
 4. `expert_precision_component.png` - 专家级精密构件
 5. `master_precision_component.png` - 大师级精密构件
 6. `legendary_precision_component.png` - 传奇精密构件
