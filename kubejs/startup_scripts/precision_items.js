@@ -12,8 +12,8 @@ StartupEvents.registry('item', event => {
     // 阶段2：先进构件
     event.create('improved_precision_component')
         .displayName('§b先进构件')
-        .tooltip('§7经过改良的精密构件')
-        .tooltip('§7精度比基础构件更高')
+        .tooltip('§7由电路控制的精密构件')
+        .tooltip('§7强度比基础构件更高')
         .tooltip('§8需要基础构件作为前置')
         .rarity('uncommon')
         .texture('kubejs:item/improved_precision_component')
@@ -21,7 +21,7 @@ StartupEvents.registry('item', event => {
     // 阶段3：精密构件
     event.create('advanced_precision_component')
         .displayName('§d精密构件')
-        .tooltip('§7高精度的机械构件')
+        .tooltip('§7高度精密构件')
         .tooltip('§7可用于制作复杂机械')
         .tooltip('§8需要先进构件作为前置')
         .rarity('rare')
