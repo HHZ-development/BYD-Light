@@ -1,0 +1,13 @@
+name = "Glowing Ores"
+filename = "glowingores-1.21-2.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fee582e1256c81e1c6ccb997e884c167f4e2d111"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6078159
+project-id = 686924

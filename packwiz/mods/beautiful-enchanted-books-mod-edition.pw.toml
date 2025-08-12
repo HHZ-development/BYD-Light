@@ -1,0 +1,13 @@
+name = "Beautiful Enchanted Books [MOD EDITION]"
+filename = "BEB-NeoForge-1.21-5.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pcqEicMM/versions/3fqFe9E0/BEB-NeoForge-1.21-5.0.0.jar"
+hash-format = "sha512"
+hash = "bb10ee788dcd496fe1fe1fa017b108814d54f6a7f5cfe30a777936e0f6a4bc31785f058025225962b49724db05ab117c33ebea35739123ae69861eda0dc9e66c"
+
+[update]
+[update.modrinth]
+mod-id = "pcqEicMM"
+version = "3fqFe9E0"

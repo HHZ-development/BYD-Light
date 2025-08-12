@@ -1,0 +1,13 @@
+name = "chatbox"
+filename = "chatbox-1.0.6-fix.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ufXo7W3f/versions/xHLYwGdv/chatbox-1.0.6-fix.jar"
+hash-format = "sha512"
+hash = "a8df4f0c691e219a596655678ce15220de74071d09545df0e9df307decac0a55bb0825addbbb2c03a15b877ce0083bd7aa209a14c3a82bcecde1e180a125acd1"
+
+[update]
+[update.modrinth]
+mod-id = "ufXo7W3f"
+version = "xHLYwGdv"

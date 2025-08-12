@@ -1,0 +1,13 @@
+name = "Nature's Aura"
+filename = "NaturesAura-41.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4cJkN3aF/versions/eWETEaUn/NaturesAura-41.7.jar"
+hash-format = "sha512"
+hash = "0c729934efc022bb068b3e64ab4dc720c20a2fa3570dd8dc0f3af55534d122a1238b160cd6806d73d98fad1d2b98aab9374c5f9d6680ef7a77a38b6b5a445dba"
+
+[update]
+[update.modrinth]
+mod-id = "4cJkN3aF"
+version = "eWETEaUn"

@@ -1,0 +1,13 @@
+name = "Modular Routers"
+filename = "modular-routers-13.2.3+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EuTS81Z3/versions/tnxKKShu/modular-routers-13.2.3%2Bmc1.21.1.jar"
+hash-format = "sha512"
+hash = "9050df20565d21e668841f9eb0182c16307a53ef6fb5fcd2a86099ead7ee074860cd47d3de3326983a76fe8ee28f5c42400e8029d9bb59fade43e2df855d7ccc"
+
+[update]
+[update.modrinth]
+mod-id = "EuTS81Z3"
+version = "tnxKKShu"
