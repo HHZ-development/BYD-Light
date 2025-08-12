@@ -1,0 +1,13 @@
+name = "QueQiao"
+filename = "QueQiao-neoforge+1.21.1-0.2.0.post2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/rVJvtYoX/versions/CP3qUJVy/QueQiao-neoforge%2B1.21.1-0.2.0.post2.jar"
+hash-format = "sha512"
+hash = "80083483805d5d5cb84bca9370c2ecd973b5991232bb4e7cfad07d344936875a8979b46b32b71777b1c2de2b491077cb05e5358ffd29ea675db05841521b89d4"
+
+[update]
+[update.modrinth]
+mod-id = "rVJvtYoX"
+version = "CP3qUJVy"

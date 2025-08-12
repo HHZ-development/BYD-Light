@@ -1,0 +1,13 @@
+name = "Modular Machinery Reborn Ars Nouveau"
+filename = "modular_machinery_reborn_ars-1.21.1-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/C8tO5HS1/versions/lhUPdowH/modular_machinery_reborn_ars-1.21.1-2.0.3.jar"
+hash-format = "sha512"
+hash = "372b2ba9f1c5adc5d6f26293576def59736802d633d997061fce2361e1a7f9bf8488cbf3dd0dd13a20cb73372586656273b150f61b2f06e081805c1c9e8f0dc1"
+
+[update]
+[update.modrinth]
+mod-id = "C8tO5HS1"
+version = "lhUPdowH"

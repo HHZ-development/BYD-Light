@@ -1,0 +1,13 @@
+name = "Dank Storage"
+filename = "dankstorage-neoforge-1.21.1-19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "13ca33179ceef3948ee978097edcddebf9a91afa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6194013
+project-id = 335673

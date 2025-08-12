@@ -1,0 +1,13 @@
+name = "Time in a bottle"
+filename = "tiab-neoforge-6.5.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LQdpBqdS/versions/K8iXBQOV/tiab-neoforge-6.5.0.jar"
+hash-format = "sha512"
+hash = "a16c4b38517055e06442d2355729d5c09dd7833da6e39251678b097f98f8e64677b0890f817dfd0c4ee84c3d7750d2bb25cef7af2a08e475456f9fa317b34354"
+
+[update]
+[update.modrinth]
+mod-id = "LQdpBqdS"
+version = "K8iXBQOV"

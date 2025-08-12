@@ -1,0 +1,13 @@
+name = "Mekanism:More Machine"
+filename = "mekmm-1.21.1-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qDJXZJTz/versions/TI7GtBPM/mekmm-1.21.1-1.0.3.jar"
+hash-format = "sha512"
+hash = "1dfcd7a24c6f280e44d144dfe4488ce4904da2053be6b36dec1520672ec74b3ac70fe3e835d49788853f6fb81133e605c8752f8db691fe929a13a52e431f0c75"
+
+[update]
+[update.modrinth]
+mod-id = "qDJXZJTz"
+version = "TI7GtBPM"

@@ -1,0 +1,13 @@
+name = "Modular Machinery Reborn"
+filename = "modular_machinery_reborn-1.21.1-2.4.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oPdlqv8D/versions/MDmLzDC8/modular_machinery_reborn-1.21.1-2.4.7.jar"
+hash-format = "sha512"
+hash = "d35e810f8cbf9543edf9306781adaec0bd15e3485e216473b6065301026eaa1eb2311ac1d35a77943514280e24aac939770dbd47d0f105415383e53d1fded80d"
+
+[update]
+[update.modrinth]
+mod-id = "oPdlqv8D"
+version = "MDmLzDC8"
