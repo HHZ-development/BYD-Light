@@ -127,7 +127,7 @@
     event.custom({
         type: "create:sequenced_assembly",
         ingredient: {
-            item: "sophisticatedbackpacks:copper_backpack"
+            item: "sophisticatedbackpacks:backpack"
         },
         loops: 2,
         results: [
@@ -175,7 +175,7 @@
     event.custom({
         type: "create:sequenced_assembly",
         ingredient: {
-            item: "sophisticatedbackpacks:iron_backpack"
+            item: "sophisticatedbackpacks:copper_backpack"
         },
         loops: 2,
         results: [

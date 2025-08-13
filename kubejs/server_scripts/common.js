@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
  // 精炼精密合金 (Refined Precision Alloy)
-    event.shaped(Item.of('kubejs:reinforced_precision_alloy',2), 
+     event.shaped('kubejs:reinforced_precision_alloy', 
       ['AB',
        'CD'], 
      {

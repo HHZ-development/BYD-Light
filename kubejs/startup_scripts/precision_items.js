@@ -108,6 +108,13 @@ StartupEvents.registry('item', event => {
         .tooltip('§8序列装配配方示例')
         .rarity('uncommon')
         .texture('kubejs:item/reinforced_brass_ingot')
+    event.create('reinforced_precision_alloy')
+        .displayName('§6强化精密合金')
+        .tooltip('§7通过精炼精密合金制作的强化合金')
+        .tooltip('§7用于制作高级机械部件')
+        .tooltip('§8序列装配配方示例')
+        .rarity('uncommon')
+        .texture('kubejs:item/reinforced_precision_alloy')
 
     // ============ 高级精密机械装置及其中间物品 ============
     event.create('advanced_precision_mechanism')
@@ -177,10 +184,6 @@ StartupEvents.registry('item', event => {
         .tooltip('§7序列装配过程中的中间产物')
         .tooltip('§8在序列装配台中使用')
         .texture('kubejs:item/incomplete_basic_precision_component')
-        event.create('reinforced_precision_alloy')
-        .displayName('§6强化精密合金')
-        .tooltip('§7通过精炼精密合金制作的强化合金')
-        .texture('kubejs:item/reinforced_precision_alloy')
 })
 
 // 验证物品注册完成
