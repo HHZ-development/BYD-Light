@@ -123,4 +123,148 @@
             id: "kubejs:incomplete_reinforced_brass"
         }
     }).id("kubejs:create/sequenced_assembly/reinforced_brass_ingot")
+    //铜背包
+    event.custom({
+        type: "create:sequenced_assembly",
+        ingredient: {
+            item: "sophisticatedbackpacks:copper_backpack"
+        },
+        loops: 2,
+        results: [
+            {
+                chance: 100.0,
+                id: "sophisticatedbackpacks:copper_backpack"
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_copper_backpack"
+                    },
+                    {
+                        item: "create:brass_ingot"
+                    }
+                ],
+                results: [
+                    {
+                        id: "sophisticatedbackpacks:copper_backpack"
+                    }
+                ]
+            },
+             {
+                type: "create:pressing",
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_copper_backpack"
+                    }
+                ],
+                results: [
+                    {
+                        id: "kubejs:incomplete_copper_backpack"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "sophisticatedbackpacks:copper_backpack"
+        }
+    }).id("kubejs:create/sequenced_assembly/copper_backpack")
+    //铁背包
+    event.custom({
+        type: "create:sequenced_assembly",
+        ingredient: {
+            item: "sophisticatedbackpacks:iron_backpack"
+        },
+        loops: 2,
+        results: [
+            {
+                chance: 100.0,
+                id: "sophisticatedbackpacks:iron_backpack"
+            }
+        ],
+        sequence: [
+            {
+                type: "create:deploying",
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_iron_backpack"
+                    },
+                    {
+                        item: "mekanism:ingot_steel"
+                    }
+                ],
+                results: [
+                    {
+                        id: "sophisticatedbackpacks:iron_backpack"
+                    }
+                ]
+            },
+             {
+                type: "create:pressing",
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_iron_backpack"
+                    }
+                ],
+                results: [
+                    {
+                        id: "kubejs:incomplete_iron_backpack"
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: "sophisticatedbackpacks:iron_backpack"
+        }
+    }).id("kubejs:create/sequenced_assembly/iron_backpack")
+    //基础精密构件
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: 'kubejs:basic_precision_component'
+        },
+        loops: 1,
+        results: [
+            {
+                chance: 100.0,
+                id: 'kubejs:basic_precision_component'
+            }
+        ],
+        sequence: [
+            {
+                type: 'create:pressing',
+                ingredients: [
+                    {
+                        item: 'immersiveengineering:plate_steel'
+                    }
+                ],
+                results: [
+                    {
+                        id: 'kubejs:incomplete_basic_precision_component'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_basic_precision_component'
+                    },
+                    {
+                        item: 'industrialforegoing:iron_gear'
+                    }
+                ],
+                results: [
+                    {
+                        id: 'kubejs:incomplete_basic_precision_component'
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: 'kubejs:basic_precision_component'
+        }
+    }).id('kubejs:create/sequenced_assembly/basic_precision_component')
 })

@@ -160,7 +160,8 @@ StartupEvents.registry('item', event => {
         .tooltip('§7序列装配过程中的中间产物')
         .tooltip('§8在序列装配台中使用')
         .texture('kubejs:item/incomplete_advanced_precision_mechanism')
-    event.create('incomplete_copper_backpack')
+    // 铜背包和铁背包的序列装配半成品
+        event.create('incomplete_copper_backpack')
         .displayName('未完成的铜背包')
         .tooltip('§7序列装配过程中的中间产物')
         .tooltip('§8在序列装配台中使用')
@@ -170,7 +171,16 @@ StartupEvents.registry('item', event => {
         .tooltip('§7序列装配过程中的中间产物')
         .tooltip('§8在序列装配台中使用')
         .texture('kubejs:item/incomplete_iron_backpack')
-
+    // 基础精密构件序列装配半成品
+        event.create('incomplete_basic_precision_component')
+        .displayName('未完成的基础精密构件')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .texture('kubejs:item/incomplete_basic_precision_component')
+        event.create('reinforced_precision_alloy')
+        .displayName('§6强化精密合金')
+        .tooltip('§7通过精炼精密合金制作的强化合金')
+        .texture('kubejs:item/reinforced_precision_alloy')
 })
 
 // 验证物品注册完成

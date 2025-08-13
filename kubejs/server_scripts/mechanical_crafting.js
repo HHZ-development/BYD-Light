@@ -19,24 +19,6 @@ ServerEvents.recipes(event => {
         },
         accept_mirrored: false
     }).id('kubejs:mechanical_crafting/advanced_circuit')
-    //基础构件 (Basic Precision Component)
-    event.custom({
-        type: 'create:mechanical_crafting',
-        pattern: [
-            'AB',
-            'CD'
-        ],
-        key: {
-            A: { item: 'minecraft:iron_ingot' },
-            B: { item: 'create:brass_ingot' },
-            C: { item:   'mekanism:ingot_steel' },
-            D: { item: 'create:andesite_alloy' }
-        },
-        result: {
-            id: 'kubejs:basic_precision_component'
-        },
-        accept_mirrored: false
-    }).id('kubejs:mechanical_crafting/basic_precision_component')
      // 先进精密构件 (Advanced Precision Component)
     event.custom({
         type: 'create:mechanical_crafting',
@@ -57,4 +39,47 @@ ServerEvents.recipes(event => {
         },
         accept_mirrored: false
     }).id('kubejs:mechanical_crafting/improved_precision_component')
+   //特斯拉线圈
+    event.custom({
+        type: 'create:mechanical_crafting',
+        pattern: [
+            ' AAA ',
+            'AAAAA',
+            'B C B',
+            'BECEB',
+            ' DDD '
+        ],
+        key: {
+            A: { item: 'immersiveengineering:wirecoil_electrum' },
+            B: { item: 'create:brass_sheet' },
+            C: { item: 'immersiveengineering:stick_steel' },
+            D: { item: 'mekanism:steel_casing' },
+            E: { item: 'minecraft:redstone' }
+        },
+        result: {
+            id: 'createaddition:tesla_coil'
+        },
+        accept_mirrored: false
+    }).id('kubejs:mechanical_crafting/tesla_coil')
+    //交流发电机
+    event.custom({
+        type: 'create:mechanical_crafting',
+        pattern: [
+            ' AAA ',
+            'ABCBA',
+            'ACDCA',
+            'ABCBA',
+            ' AAA '
+        ],
+        key: {
+            A: { item: 'immersiveengineering:plate_steel' },
+            B: { item: 'minecraft:redstone' },
+            C: { item: 'immersiveengineering:wirecoil_copper' },
+            D: { item: 'mekanism:steel_casing' }
+        },
+        result: {
+            id: 'createaddition:alternator'
+        },
+        accept_mirrored: false
+    }).id('kubejs:mechanical_crafting/alternator')
 })
