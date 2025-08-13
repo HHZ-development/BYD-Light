@@ -223,7 +223,7 @@
     event.custom({
         type: 'create:sequenced_assembly',
         ingredient: {
-            item: 'kubejs:basic_precision_component'
+            item: 'immersiveengineering:plate_steel'
         },
         loops: 1,
         results: [
@@ -237,7 +237,7 @@
                 type: 'create:pressing',
                 ingredients: [
                     {
-                        item: 'immersiveengineering:plate_steel'
+                        item: 'kubejs:incomplete_basic_precision_component'
                     }
                 ],
                 results: [
