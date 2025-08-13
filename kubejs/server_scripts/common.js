@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
             B: { item: 'create:zinc_ingot' },
             C: { item: 'minecraft:copper_ingot' },
             D: { item: 'mekanism:alloy_infused' }
-    }).id('kubejs:mechanical_crafting/refined_precision_alloy')
+    }).id('kubejs:test/refined_precision_alloy')
  // 基础电路板 basic_circuit    
     event.shaped('kubejs:basic_circuit', [
             'ADA',
@@ -16,7 +16,7 @@ ServerEvents.recipes(event => {
             'ADA'
     ], {
             A: { item: 'mekanism:ingot_steel' },
-            B: { item: 'minecraft:redstone' },
+            B: { item: 'mekanism:basic_control_circuit' },
             C: { item: 'createaddition:copper_wire' },
             D: { item: 'create:iron_sheet' }
     }).id('kubejs:test/basic_circuit')  
@@ -29,4 +29,7 @@ ServerEvents.recipes(event => {
         A: 'create:brass_ingot',
         B: 'minecraft:iron_ingot'
     }).id('kubejs:test/manual_reinforced_brass_simple')
+//褐铁与铁转换
+    event.smelting('minecraft:iron_ingot', 'aoa3:limonite_ingot').id('kubejs:test/smelting_limonite_ingot')
+    event.smelting('aoa3:limonite_ingot', 'minecraft:iron_ingot').id('kubejs:test/smelting_iron_ingot')
 })

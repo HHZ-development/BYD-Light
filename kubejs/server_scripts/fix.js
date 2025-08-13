@@ -5,6 +5,8 @@ ServerEvents.recipes(event => {
     event.remove({output:'create:precision_mechanism'}) // 移除旧的精密机制配方
     event.remove({type:'create:mechanical_crafting'}) // 移除旧的机械合成配方
     event.remove({output:'enderio:z_logic_controller'}) // 移除旧的逻辑控制器配方
+    event.remove({output:'sophisticatedbackpacks:copper_backpack'}) // 移除旧的铜背包配方
+    event.remove({output:'sophisticatedbackpacks:iron_backpack'}) // 移除旧的铁背包配方
 
     event.replaceInput({
         input:'create:precision_mechanism'
@@ -13,6 +15,13 @@ ServerEvents.recipes(event => {
     Ingredient.of('kubejs:basic_precision_component') // 精密构件替换为基础构件
     )
     
+    event.replaceInput({
+        input:'mekanism:basic_control_circuit'
+    }, 
+    'mekanism:basic_control_circuit', 
+    Ingredient.of('kubejs:basic_circuit') // 基础控制电路替换为基础电路板
+    )
+
     event.replaceInput({
         output:'mekanism:metallurgic_infuser'
     }, 
