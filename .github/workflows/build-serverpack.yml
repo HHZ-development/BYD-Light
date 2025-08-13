@@ -1,0 +1,76 @@
+name: Build Server Pack
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 3 * * 0'
+
+env:
+  NEOFORGE_INSTALLER_URL: "https://maven.neoforged.net/net/neoforged/neoforge/21.1.200/neoforge-21.1.200-installer.jar"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: 'neoforge1.21.1'
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Download and Install NeoForge Server
+        run: |
+          mkdir server-build
+          cd server-build
+          
+          echo "Downloading NeoForge Installer..."
+          curl -L -o neoforge-installer.jar "$NEOFORGE_INSTALLER_URL"
+          
+          echo "Installing NeoForge Server..."
+          java -jar neoforge-installer.jar --installServer
+          cd ..
+
+      - name: Download packwiz-installer
+        run: |
+          echo "Downloading packwiz-installer..."
+          curl -Lf -o server-build/packwiz-installer-bootstrap.jar https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar
+
+      - name: Copy packwiz files and download mods
+        run: |
+          echo "Copying pack definition files..."
+          cp -r packwiz/* server-build/ || true
+          cp -r kubejs/ server-build/kubejs/ || true
+          cp -r Config/ server-build/config/ || true
+          
+          echo "Downloading all mods..."
+          cd server-build
+          java -jar packwiz-installer-bootstrap.jar --side server pack.toml
+
+      - name: Clean up metadata files for distribution
+        run: |
+          echo "Cleaning up build directory..."
+          rm -rf server-build/mods/*.pw.toml
+          rm -f server-build/pack.toml server-build/index.toml
+          rm -f server-build/packwiz-installer-bootstrap.jar
+          rm -f server-build/neoforge-installer.jar
+          rm -f server-build/*.log
+
+      - name: Zip the server files
+        run: |
+          echo "Zipping server files..."
+          cd server-build
+          zip -r ../server-pack.zip .
+          cd ..
+
+      - name: Upload Server Pack Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: neoforge-server-pack-${{ github.run_number }}
+          path: server-pack.zip
