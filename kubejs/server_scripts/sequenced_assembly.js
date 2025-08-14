@@ -267,4 +267,70 @@
             id: 'kubejs:basic_precision_component'
         }
     }).id('kubejs:create/sequenced_assembly/basic_precision_component')
+    //先进构件半成品
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: 'kubejs:basic_precision_component'
+        },
+        loops: 1,
+        results: [
+            {
+                chance: 100.0,
+                id: 'kubejs:unfinished_improved_precision_component'
+            }
+        ],
+        sequence: [
+             {
+                type: "create:filling",     //注液
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_advanced_precision_component"
+                    },
+                    {
+                        type: "fluid_stack",
+                        amount: 500,
+                        fluid: "kubejs:molten_redstone"
+                    }
+                ],
+                results: [
+                    {
+                        id: "kubejs:incomplete_advanced_precision_component"
+                    }
+                ]
+            },
+            {
+                type: 'create:pressing',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_improved_precision_component'
+                    }
+                ],
+                results: [
+                    {
+                        id: 'kubejs:incomplete_improved_precision_component'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_improved_precision_component'
+                    },
+                    {
+                        item: 'kubejs:basic_circuit'
+                    }
+                ],
+                results: [
+                    {
+                        id: 'kubejs:incomplete_improved_precision_component'
+                    }
+                ]
+            }
+        ],
+        transitional_item: {
+            id: 'kubejs:unfinished_improved_precision_component'
+        }
+    }).id('kubejs:create/sequenced_assembly/improved_precision_component')
 })

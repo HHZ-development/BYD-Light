@@ -1,6 +1,13 @@
 // Create精密构件阶段性物品定义 - 完全中文嵌入版本
 StartupEvents.registry('item', event => {
     
+    // ============ 合金注册 ============
+    event.create('common_alloy')
+        .displayName('通用合金')
+        .tooltip('§7工业通用的合金材料')
+        .tooltip('§7用于制作各种精密构件')
+        .rarity('common')
+
     // 阶段1：基础构件
     event.create('basic_precision_component')
         .displayName('§a基础构件')
@@ -88,17 +95,46 @@ StartupEvents.registry('item', event => {
         .texture('kubejs:item/cosmic_circuit')
     
     // ============ 序列合成中间物品 ============
-    event.create('incomplete_crystalline_precision_matrix')
-        .displayName('未完成的晶化精密基质')
-        .texture('kubejs:item/incomplete_crystalline_precision_matrix')
+    // 改良精密构件制作过程的半成品
+    event.create('incomplete_improved_precision_component')
+        .displayName('未完成的改良精密构件')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .rarity('uncommon')
+        .texture('kubejs:item/incomplete_improved_precision_component')
     
-    event.create('incomplete_precision_shaft')
-        .displayName('未完成的精密轴心核心')
-        .texture('kubejs:item/incomplete_precision_shaft')
+    // 高级精密机械制作过程的半成品
+    event.create('incomplete_advanced_precision_mechanism')
+        .displayName('未完成的高级精密机械')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .texture('kubejs:item/incomplete_advanced_precision_mechanism')
+    // 铜背包和铁背包的序列装配半成品
+        event.create('incomplete_copper_backpack')
+        .displayName('未完成的铜背包')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .texture('kubejs:item/incomplete_copper_backpack')
+    event.create('incomplete_iron_backpack')
+        .displayName('未完成的铁背包')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .texture('kubejs:item/incomplete_iron_backpack')
+    // 基础精密构件序列装配半成品
+        event.create('incomplete_basic_precision_component')
+        .displayName('未完成的基础精密构件')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .rarity('common')
+        .texture('kubejs:item/incomplete_basic_precision_component')
     
-    event.create('incomplete_crystal_matrix')
-        .displayName('未完成的晶体基质')
-        .texture('kubejs:item/incomplete_crystal_matrix')
+    // ============ 半成品物品 ============
+    //先进构件按照序列装配制作的半成品
+    event.create('unfinished_advanced_precision_component')
+        .displayName('未完成的先进精密构件')
+        .tooltip('§7序列装配完毕后的中间产物')
+        .tooltip('§8在冶金灌注机中使用')
+        .texture('kubejs:item/unfinished_advanced_precision_component')
 
     // ============ 序列装配示例物品 ============
     event.create('reinforced_brass_ingot')
@@ -161,29 +197,6 @@ StartupEvents.registry('item', event => {
         .tooltip('§8在序列装配台中使用')
         .texture('kubejs:item/incomplete_precision_gear')
     
-    // 高级精密机械制作过程的半成品
-    event.create('incomplete_advanced_precision_mechanism')
-        .displayName('未完成的高级精密机械')
-        .tooltip('§7序列装配过程中的中间产物')
-        .tooltip('§8在序列装配台中使用')
-        .texture('kubejs:item/incomplete_advanced_precision_mechanism')
-    // 铜背包和铁背包的序列装配半成品
-        event.create('incomplete_copper_backpack')
-        .displayName('未完成的铜背包')
-        .tooltip('§7序列装配过程中的中间产物')
-        .tooltip('§8在序列装配台中使用')
-        .texture('kubejs:item/incomplete_copper_backpack')
-    event.create('incomplete_iron_backpack')
-        .displayName('未完成的铁背包')
-        .tooltip('§7序列装配过程中的中间产物')
-        .tooltip('§8在序列装配台中使用')
-        .texture('kubejs:item/incomplete_iron_backpack')
-    // 基础精密构件序列装配半成品
-        event.create('incomplete_basic_precision_component')
-        .displayName('未完成的基础精密构件')
-        .tooltip('§7序列装配过程中的中间产物')
-        .tooltip('§8在序列装配台中使用')
-        .texture('kubejs:item/incomplete_basic_precision_component')
 })
 
 // 验证物品注册完成
