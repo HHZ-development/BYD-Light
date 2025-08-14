@@ -149,7 +149,7 @@
                 ],
                 results: [
                     {
-                        id: "sophisticatedbackpacks:copper_backpack"
+                        id: "kubejs:incomplete_copper_backpack"
                     }
                 ]
             },
@@ -168,7 +168,7 @@
             }
         ],
         transitional_item: {
-            id: "sophisticatedbackpacks:copper_backpack"
+            id: "kubejs:incomplete_copper_backpack"
         }
     }).id("kubejs:create/sequenced_assembly/copper_backpack")
     //铁背包
@@ -197,7 +197,7 @@
                 ],
                 results: [
                     {
-                        id: "sophisticatedbackpacks:iron_backpack"
+                        id: "kubejs:incomplete_iron_backpack"
                     }
                 ]
             },
@@ -216,7 +216,7 @@
             }
         ],
         transitional_item: {
-            id: "sophisticatedbackpacks:iron_backpack"
+            id: "kubejs:incomplete_iron_backpack"
         }
     }).id("kubejs:create/sequenced_assembly/iron_backpack")
     //基础精密构件
@@ -264,7 +264,7 @@
             }
         ],
         transitional_item: {
-            id: 'kubejs:basic_precision_component'
+            id: 'kubejs:incomplete_basic_precision_component'
         }
     }).id('kubejs:create/sequenced_assembly/basic_precision_component')
     //先进构件半成品
@@ -285,7 +285,7 @@
                 type: "create:filling",     //注液
                 ingredients: [
                     {
-                        item: "kubejs:incomplete_advanced_precision_component"
+                        item: "kubejs:incomplete_improved_precision_component"
                     },
                     {
                         type: "fluid_stack",
@@ -295,7 +295,7 @@
                 ],
                 results: [
                     {
-                        id: "kubejs:incomplete_advanced_precision_component"
+                        id: "kubejs:incomplete_improved_precision_component"
                     }
                 ]
             },
@@ -330,7 +330,7 @@
             }
         ],
         transitional_item: {
-            id: 'kubejs:unfinished_improved_precision_component'
+            id: 'kubejs:incomplete_improved_precision_component'
         }
     }).id('kubejs:create/sequenced_assembly/improved_precision_component')
 })

@@ -7,6 +7,7 @@ StartupEvents.registry('item', event => {
         .tooltip('§7工业通用的合金材料')
         .tooltip('§7用于制作各种精密构件')
         .rarity('common')
+        .texture('kubejs:item/common_alloy')
 
     // 阶段1：基础构件
     event.create('basic_precision_component')
@@ -97,7 +98,7 @@ StartupEvents.registry('item', event => {
     // ============ 序列合成中间物品 ============
     // 改良精密构件制作过程的半成品
     event.create('incomplete_improved_precision_component')
-        .displayName('未完成的改良精密构件')
+        .displayName('未完成的先进精密构件')
         .tooltip('§7序列装配过程中的中间产物')
         .tooltip('§8在序列装配台中使用')
         .rarity('uncommon')
@@ -130,11 +131,11 @@ StartupEvents.registry('item', event => {
     
     // ============ 半成品物品 ============
     //先进构件按照序列装配制作的半成品
-    event.create('unfinished_advanced_precision_component')
-        .displayName('未完成的先进精密构件')
+    event.create('unfinished_improved_precision_component')
+        .displayName('先进精密构件半成品')
         .tooltip('§7序列装配完毕后的中间产物')
         .tooltip('§8在冶金灌注机中使用')
-        .texture('kubejs:item/unfinished_advanced_precision_component')
+        .texture('kubejs:item/unfinished_improved_precision_component')
 
     // ============ 序列装配示例物品 ============
     event.create('reinforced_brass_ingot')

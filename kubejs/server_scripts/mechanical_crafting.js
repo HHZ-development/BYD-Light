@@ -19,26 +19,6 @@ ServerEvents.recipes(event => {
         },
         accept_mirrored: false
     }).id('kubejs:mechanical_crafting/advanced_circuit')
-     // 先进精密构件 (Advanced Precision Component)
-    event.custom({
-        type: 'create:mechanical_crafting',
-        pattern: [
-            'ABA',
-            'CDC',
-            'AEA'
-        ],
-        key: {
-            A: { item: 'kubejs:reinforced_precision_alloy' },
-            B: { item: 'minecraft:redstone' },
-            C: { item: 'minecraft:iron_ingot' },
-            D: { item: 'kubejs:basic_precision_component' },
-            E: { item: 'kubejs:advanced_circuit' }
-        },
-        result: {
-            id: 'kubejs:improved_precision_component'
-        },
-        accept_mirrored: false
-    }).id('kubejs:mechanical_crafting/improved_precision_component')
    //特斯拉线圈
     event.custom({
         type: 'create:mechanical_crafting',
