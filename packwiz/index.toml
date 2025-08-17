@@ -231,6 +231,11 @@ hash = "85bfeee744eff6e3cb9146da32407874d569237298072c4455224566e322e476"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "98f1f22a846713d35b2375d4a88b18836e11f427734527d729dc1b89e7fb4da3"
+metafile = true
+
+[[files]]
 file = "mods/create-cyber-goggles.pw.toml"
 hash = "1d405c21a232cda079fbe3f197d2c6ae088fddeccf5f476498e1bca607820d68"
 metafile = true

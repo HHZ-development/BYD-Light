@@ -4,10 +4,10 @@
         type: 'create:mixing',
         ingredients: [
             { tag: 'c:ingots/iron' },
-            { item: 'minecraft:coal' },
-            { item: 'minecraft:coal' },
-            { item: 'minecraft:coal' },
-            { item: 'minecraft:coal' }
+            { tag: 'c:coal' },
+            { tag: 'c:coal' },
+            { tag: 'c:coal' },
+            { tag: 'c:coal' }
         ],
         results: [
             {
@@ -19,7 +19,8 @@
     event.custom({
         type: 'create:mixing',
         ingredients: [
-            { tag: '2x ae2:all_quartz' },
+            { tag: 'ae2:all_quartz' },
+            { tag: 'ae2:all_quartz' },
             { item: 'minecraft:redstone' },
             { item: 'minecraft:redstone' },
             { item: 'minecraft:redstone' },
