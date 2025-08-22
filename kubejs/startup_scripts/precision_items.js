@@ -128,6 +128,12 @@ StartupEvents.registry('item', event => {
         .tooltip('§8在序列装配台中使用')
         .rarity('common')
         .texture('kubejs:item/incomplete_basic_precision_component')
+        event.create('incomplete_basic_circuit')
+        .displayName('未完成的基础电路板')
+        .tooltip('§7序列装配过程中的中间产物')
+        .tooltip('§8在序列装配台中使用')
+        .rarity('common')
+        .texture('kubejs:item/incomplete_basic_circuit')
     
     // ============ 半成品物品 ============
     //先进构件按照序列装配制作的半成品
@@ -197,6 +203,13 @@ StartupEvents.registry('item', event => {
         .tooltip('§7序列装配过程中的中间产物')
         .tooltip('§8在序列装配台中使用')
         .texture('kubejs:item/incomplete_precision_gear')
+    
+    //其他
+    event.create('wood_sheet')
+         .displayName('木片')
+         .tooltip('§7压紧实的木头')
+         .tooltip('§8适合用来充当电路板的基板')
+         .texture('kubejs:item/wood_sheet')
     
 })
 

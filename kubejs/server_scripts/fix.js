@@ -7,6 +7,9 @@ ServerEvents.recipes(event => {
     event.remove({output:'enderio:z_logic_controller'}) // 移除旧的逻辑控制器配方
     event.remove({output:'sophisticatedbackpacks:copper_backpack'}) // 移除旧的铜背包配方
     event.remove({output:'sophisticatedbackpacks:iron_backpack'}) // 移除旧的铁背包配方
+    event.remove({output:'create:blaze_cake'})//移除烈焰蛋糕配方
+    event.remove({ id: 'createaddition:compacting/seed_oil' })//移除种子油配方
+    event.remove({type:'mekanism:evaporating'})
 
     event.replaceInput({
         input:'create:precision_mechanism'

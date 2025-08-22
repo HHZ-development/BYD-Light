@@ -23,9 +23,9 @@
     { item: 'minecraft:redstone' },
     { item: 'minecraft:redstone' }
   ],
-  result: [
+  results: [
     {
-      item: 'create:rose_quartz'
+      id: 'create:rose_quartz'
     }
   ]
 }).id('kubejs:mixing/rose_quartz')

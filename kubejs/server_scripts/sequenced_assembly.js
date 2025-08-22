@@ -333,4 +333,105 @@
             id: 'kubejs:incomplete_improved_precision_component'
         }
     }).id('kubejs:create/sequenced_assembly/improved_precision_component')
+    
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {
+            item: 'kubejs:wood_sheet'
+        },
+        loops: 1,
+        results: [
+            {
+                chance: 100.0,
+                id: 'kubejs:basic_circuit'
+            }
+        ],
+        sequence: [
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_basic_circuit'
+                    },
+                    {
+                        item: 'createaddition:copper_wire'
+                    }
+                ],
+                results: [
+                    {
+                        id: 'kubejs:incomplete_basic_circuit'
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_basic_circuit'
+                    },
+                    {
+                        item: 'createaddition:copper_wire'
+                    }
+                ],
+                results: [
+                    {
+                        id: 'kubejs:incomplete_basic_circuit'
+                    }
+                ]
+            },
+            {
+                type: 'create:pressing',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_basic_circuit'
+                    }
+                ],
+                results: [
+                    {
+                        id: 'kubejs:incomplete_basic_circuit'
+                    }
+                ]
+            },
+             {
+                type: "create:filling",     //注液
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_basic_circuit"
+                    },
+                    {
+                        type: "fluid_stack",
+                        amount: 50,
+                        fluid: "kubejs:molten_redstone"
+                    }
+                ],
+                results: [
+                    {
+                        id: "kubejs:incomplete_basic_circuit"
+                    }
+                ]
+            },
+            {
+                type: 'create:deploying',
+                ingredients: [
+                    {
+                        item: 'kubejs:incomplete_basic_circuit'
+                    },
+                    {
+                        item: 'mekanism:basic_control_circuit'
+                    }
+                ],
+                results: [
+                    {
+                        id: 'kubejs:incomplete_basic_circuit'
+                    }
+                ]
+            }
+            
+        ],
+        transitional_item: {
+            id: 'kubejs:incomplete_basic_circuit'
+        }
+    }).id('kubejs:create/sequenced_assembly/basic_circuit')
+ 
+    
 })
