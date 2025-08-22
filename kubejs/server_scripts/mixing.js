@@ -29,4 +29,17 @@
     }
   ]
 }).id('kubejs:mixing/rose_quartz')
+//熔融红石
+event.custom({
+        type: 'create:mixing',
+        heat_requirement: 'superheated',
+        ingredients: [
+            { item: 'minecraft:redstone' },
+        ],
+        results: [
+            {   amount:250,
+                id: 'kubejs:molten_redstone'
+            }
+        ]
+    }).id('kubejs:mixing/molten_redstone')
 })
