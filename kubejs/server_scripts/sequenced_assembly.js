@@ -425,7 +425,25 @@
                         id: 'kubejs:incomplete_basic_circuit'
                     }
                 ]
-            }
+            },
+            {
+                type: "create:filling",     //注液
+                ingredients: [
+                    {
+                        item: "kubejs:incomplete_basic_circuit"
+                    },
+                    {
+                        type: "fluid_stack",
+                        amount: 50,
+                        fluid: "immersiveengineering:ethanol"
+                    }
+                ],
+                results: [
+                    {
+                        id: "kubejs:incomplete_basic_circuit"
+                    }
+                ]
+            },
             
         ],
         transitional_item: {
